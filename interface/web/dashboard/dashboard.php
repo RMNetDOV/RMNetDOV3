@@ -122,7 +122,7 @@ if($_SESSION["s"]["user"]["typ"] == 'admin') {
 		$info[] = array('info_msg' => '<p>There is a new Version of RM-Net - DOV CP 3 available!</p>' .
 			'<p>This Version: <b>' . $v1 . '</b></p>' .
 			'<p>New Version : <b>' . $v2 .  '</b></p>' .
-			'<p><a href="https://github.com/RMNetDOV/RMNetDOVCP/tags" target="RM-Net - DOV CP">Poglej več...</a></p>');
+			'<p><a href="https://github.com/RMNetDOV/RMNetDOV3/releases" target="RM-Net - DOV CP">Poglej več...</a></p>');
 	}
 }
 
