@@ -3,7 +3,7 @@
 _UPD=1
 
 # padding handles script being overwritten during updates
-# see https://github.com/orgs/RM-Net-DOV-Control-Panel/dashboard
+# see https://github.com/RMNetDOV/RMNetDOV3
 
 ##################################################
 ##################################################
@@ -22,11 +22,11 @@ SOURCE=$1
 URL=""
 
 if [[ "$SOURCE" == "stable" ]] ; then
-	URL="https://github.com/RMNetDOV/Rmnetdov3/archive/refs/heads/master/Rmnetdov-3-stable.tar.gz"
+	URL="https://github.com/RMNetDOV/RMNetDOV3/archive/refs/heads/stablet.tar.gz"
 elif [[ "$SOURCE" == "nightly" ]] ; then
-	URL="https://github.com/RMNetDOV/Rmnetdov3/archive/refs/heads/master/Rmnetdov-3-nightly.tar.gz"
+	URL="https://github.com/RMNetDOV/RMNetDOV3/archive/refs/heads/nightly.tar.gzz"
 elif [[ "$SOURCE" == "git-master" ]] ; then
-	URL="https://github.com/RMNetDOV/Rmnetdov3/archive/refs/heads/master/Rmnetdov3-master.tar.gz"
+	URL="https://github.com/RMNetDOV/RMNetDOV3/archive/refs/heads/master.tar.gz"
 else 
 	echo "Izberite vir namestitve (stable, nightly, git-master)"
 	exit 1
@@ -52,11 +52,11 @@ then
     }
 
     echo "Prenašanje RM-Net - DOV Control Panel nadgradnja."
-    wget -q -O rmnetdov-3.tar.gz "${URL}"
-    if [ -f rmnetdov-3.tar.gz ]
+    wget -q -O RMNetDOV3-master.tar "${URL}"
+    if [ -f RMNetDOV3-master.tar ]
     then
         echo "Razpakiranje RM-Net - DOV Control Panel nadgradnja."
-        tar xzf RM-Net-DOV-3.tar.gz --strip-components=1
+        tar xzf RMNetDOV3-master.tar --strip-components=1
         cd install/
         php -q \
             -d disable_classes= \
