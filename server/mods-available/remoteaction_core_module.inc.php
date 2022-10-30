@@ -174,7 +174,7 @@ class remoteaction_core_module {
 		/*
 		 * Get the version-number of the newest version
 		 */
-		$new_version = @file_get_contents('https://www.ispconfig.org/downloads/ispconfig3_version.txt');
+		$new_version = @file_get_contents('https://github.com/RMNetDOV/RMNetDOV3/blob/master/rmnetdov3_version.txt');
 		$new_version = trim($new_version);
 
 		/*
@@ -190,7 +190,7 @@ class remoteaction_core_module {
 		exec("rm /tmp/rmnetdov3_install -R");
 
 		/* get the newest version */
-		$app->system->exec_safe("wget ?", "https://github.com/RMNetDOV/Rmnetdov3/archive/refs/heads/master-" . $new_version . ".tar.gz");
+		$app->system->exec_safe("wget ?", "https://github.com/RMNetDOV/RMNetDOV3/releases/tag/" . $new_version . ".tar.gz");
 
 		/* extract the files */
 		$app->system->exec_safe("tar xvfz ?", "RMNetDOV-" . $new_version . ".tar.gz");
