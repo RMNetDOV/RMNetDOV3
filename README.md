@@ -32,7 +32,7 @@
 - CentOS 7 in 8
 
 ## Skript za samodejno namestitev
-"Perfect Server" lahko namestite z RM-Net - DOV z uporabo [naš uradni samodejni namestitveni program](https://www.howtoforge.com/ispconfig-autoinstall-debian-ubuntu/)
+"Perfect Server" lahko namestite z RM-Net - DOV z uporabo [naš uradni samodejni namestitveni program](https://)
 
 ## Orodje za selitev
 Orodje za selitev vam pomaga uvoziti podatke iz drugih nadzornih plošč (trenutno RM-Net - DOV CP 2 in 3 – 3.2, Plesk 10 – 12.5, Plesk Onyx, CPanel[^2] in Confixx 3). Za več informacij glejte https://www.ispconfig.org/add-ons/ispconfig-migration-tool/
