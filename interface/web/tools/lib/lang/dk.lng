@@ -1,0 +1,13 @@
+<?php
+$wb['User Settings'] = 'Bruger Indstillinger';
+$wb['Settings'] = 'Indstillinger';
+$wb['RMNetDOV Tools'] = 'RM-Net - DOV CP Værktøjer';
+$wb['Interface'] = 'Grænseflade';
+$wb['Password and Language'] = 'Adgangskode og Sprog';
+$wb['rmnetdov_tools_note'] = 'Dette modul tillader dig at ændre adgangskode og sprog, og at starte en resync af DNS-posterne.';
+$wb['Sync Tools'] = 'Sync Værktøjer';
+$wb['Resync'] = 'Resync';
+$wb['Import'] = 'Importer';
+$wb['RMNetDOV 3 mail'] = 'RM-Net - DOV CP 3 mail';
+$wb['PDNS Tupa'] = 'PowerDNS Tupa';
+?>

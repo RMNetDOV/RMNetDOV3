@@ -1,0 +1,6 @@
+<?php
+$wb['donate_txt'] = 'RM-Net - DOV CP Hosting Ovládací panel je svobodný software. Možná jste si vědomi, že to vyžaduje hodně času a úsilí rozvíjet, udržovat a podporovat softwarový projekt této složitosti. Chcete-li podpořit další rozvoj RM-Net - DOV CPu, prosím zvažte poskytnutí daru. Jako bonus dostanete kopii nového RM-Net - DOV CP manuálu.';
+$wb['donate2_txt'] = 'Výše daru může být 5 EUR nebo více, částku si zvolíte při objednávce manuálu. Způsob platby je PayPal. Obdržíte pokladní lístek jako PDF z RM-Net - DOV CP UG.';
+$wb['hide_btn_txt'] = 'Skrýt';
+$wb['donate_btn_txt'] = 'Podpořit RM-Net - DOV CP a získat manuál';
+$wb['more_btn_txt'] = 'Více';

@@ -1,0 +1,6 @@
+# Seznam dovoljenih domen prek veljavnega pravilnika SPF
+# (Raje spf_dkim_whitelist za domene, ki uporabljajo SPF in DKIM.)
+
+howtoforge.com
+rm-net.si
+

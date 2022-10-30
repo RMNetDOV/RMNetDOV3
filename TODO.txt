@@ -1,0 +1,3 @@
+Za zahteve po funkcijah in poročila o napakah si oglejte naše težave GitHub.
+
+https://git.ispconfig.org/ispconfig/ispconfig3/issues

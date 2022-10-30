@@ -1,0 +1,12 @@
+<?php
+$wb['User Settings'] = 'Uživatelská nastavení';
+$wb['Settings'] = 'Nastavení';
+$wb['RMNetDOV Tools'] = 'RM-Net - DOV CP nástroje';
+$wb['Password and Language'] = 'Heslo a jazyk';
+$wb['rmnetdov_tools_note'] = 'Tento modul umožňuje změnit heslo a jazyk pro zahájení resynchronizace DNS záznamů.';
+$wb['Resync'] = 'Resynchronizace';
+$wb['Sync Tools'] = 'Synchronizační nástroje';
+$wb['Import'] = 'Importovat';
+$wb['RMNetDOV 3 mail'] = 'RM-Net - DOV CP 3 vzdalený e-mail server';
+$wb['PDNS Tupa'] = 'PowerDNS Tupa';
+$wb['Interface'] = 'Rozhraní';

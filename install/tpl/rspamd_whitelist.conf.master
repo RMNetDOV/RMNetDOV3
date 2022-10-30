@@ -1,0 +1,38 @@
+rules {
+  "RMNETDOV_WHITELIST_SPF" = {
+    valid_spf = true;
+    domains = [
+      "$LOCAL_CONFDIR/local.d/maps.d/spf_whitelist.inc.ispc"
+    ];
+    score = -2.0
+    inverse_symbol = "RMNETDOV_BLACKLIST_SPF";
+  }
+
+  "RMNETDOV_WHITELIST_DKIM" = {
+    valid_dkim = true;
+    domains = [
+      "$LOCAL_CONFDIR/local.d/maps.d/dkim_whitelist.inc.ispc"
+    ];
+    score = -2.0;
+    inverse_symbol = "RMNETDOV_BLACKLIST_DKIM";
+  }
+
+  "RMNETDOV_WHITELIST_SPF_DKIM" = {
+    valid_spf = true;
+    valid_dkim = true;
+    domains = [
+      "$LOCAL_CONFDIR/local.d/maps.d/spf_dkim_whitelist.inc.ispc"
+    ];
+    score = -4.0;
+    inverse_symbol = "RMNETDOV_BLACKLIST_SPF_DKIM";
+  }
+
+  "RMNETDOV_WHITELIST_DMARC" = {
+    valid_dmarc = true;
+    domains = [
+      "$LOCAL_CONFDIR/local.d/maps.d/dmarc_whitelist.inc.ispc"
+    ];
+    score = -7.0;
+    inverse_symbol = "RMNETDOV_BLACKLIST_DMARC";
+  }
+}

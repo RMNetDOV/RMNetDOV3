@@ -1,0 +1,13 @@
+<?php
+$wb['User Settings'] = 'Ρυθμίσεις Χρήστη';
+$wb['Settings'] = 'Ρυθμίσεις';
+$wb['RMNetDOV Tools'] = 'Εργαλεία RM-Net - DOV CP';
+$wb['Password and Language'] = 'Συνθηματικό και Γλώσσα';
+$wb['rmnetdov_tools_note'] = 'Το άρθρωμα σας επιτρέπει να αλλάξετε το συνθηματικό και την γλώσσα και να ξεκινήσετε έναν επανασυγχρονισμό των εγγραφών DNS.';
+$wb['Resync'] = 'Resync';
+$wb['Sync Tools'] = 'Sync Tools';
+$wb['Import'] = 'Import';
+$wb['RMNetDOV 3 mail'] = 'RM-Net - DOV CP 3 mail';
+$wb['PDNS Tupa'] = 'PowerDNS Tupa';
+$wb['Interface'] = 'Interface';
+?>

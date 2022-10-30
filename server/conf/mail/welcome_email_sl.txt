@@ -1,0 +1,4 @@
+From: {admin_name} <{admin_mail}>
+Subject: Dobrodošli v vašem novem E-Mail računu.
+
+Dobrodošli v vašem novem E-Mail računu. Vaš spletni skrbnik.

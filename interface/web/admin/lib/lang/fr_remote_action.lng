@@ -1,0 +1,12 @@
+<?php
+$wb['select_server_txt'] = 'Sélectionner un serveur';
+$wb['btn_do_txt'] = 'Exécuter l’action';
+$wb['do_osupdate_caption'] = 'Mettre à jour l\'OS du serveur distant';
+$wb['do_osupdate_desc'] = 'Cette action effectue apt -y upgrade sur le serveur sélectionné.<br/><br/><strong>UTILISEZ A VOS RISQUES ET PERILS !</strong>';
+$wb['do_rmnetdovupdate_caption'] = 'Mettre à jour RM-Net - DOV CP 3 sur le serveur distant';
+$wb['do_rmnetdovupdate_desc'] = 'Cette action met à jour RM-Net - DOV CP3 sur le serveur sélectionné.<br/><br/><strong>UTILISEZ A VOS RISQUES ET PERILS !</strong>';
+$wb['action_scheduled'] = 'L’action est marquée pour exécution';
+$wb['select_all_server'] = 'Tout serveur';
+$wb['rmnetdov_update_title'] = 'RM-Net - DOV CP update instructions';
+$wb['rmnetdov_update_text'] = 'Login as root user on the shell of your server and execute the command<br /><br /> <strong>rmnetdov_update.sh</strong><br /><br />to start the RM-Net - DOV CP update.<br /><br /><a href=\\"https://www.faqforge.com/linux/controlpanels/ispconfig3/how-to-update-ispconfig-3/\\" target=\\"_blank\\">Click here for detailed update instructions</a>';
+?>

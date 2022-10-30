@@ -1,0 +1,6 @@
+
+Navodila za namestitev RM-Net - DOV CP najdete tukaj:
+
+https://github.com/RMNetDOV/rmnetdov3/wiki/documentation
+
+

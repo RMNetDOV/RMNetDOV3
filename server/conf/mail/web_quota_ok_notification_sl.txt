@@ -1,0 +1,14 @@
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+From: {admin_mail}
+Reply-To: {admin_mail}
+Subject: Kvota spletnega mesta je v redu
+
+Spletna stran {domain} ni več blizu ali nad kvoto.
+
+Domain: 		{domain}
+Used space:		{used}
+Soft limit:		{soft}
+Hard limit:		{hard}
+Usage ratio:		{ratio}

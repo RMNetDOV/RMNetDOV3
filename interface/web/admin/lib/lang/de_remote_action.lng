@@ -1,0 +1,12 @@
+<?php
+$wb['select_server_txt'] = 'Server auswählen';
+$wb['btn_do_txt'] = 'Aktion ausführen';
+$wb['do_osupdate_caption'] = 'Betriebssystem Update auf entferntem Server ausführen';
+$wb['do_osupdate_desc'] = 'Diese Aktion wird ein apt -y upgrade auf dem ausgewählten Server ausführen.<br><br><strong>DIES GESCHIEHT AUF IHRE EIGENE VERANTWORTUNG!</strong>';
+$wb['do_rmnetdovupdate_caption'] = 'RM-Net - DOV CP 3 Update auf entferntem Server ausführen';
+$wb['do_rmnetdovupdate_desc'] = 'Diese Aktion wird ein Update des RM-Net - DOV CP 3 Systems auf Ihrem ausgewählten Server ausführen.<br><br><strong>DIES GESCHIEHT AUF IHRE EIGENE VERANTWORTUNG!</strong>';
+$wb['action_scheduled'] = 'Die Aktion wurde zur Ausführung vorgemerkt';
+$wb['select_all_server'] = 'Alle Server';
+$wb['rmnetdov_update_title'] = 'RM-Net - DOV CP 3 Update Anweisungen';
+$wb['rmnetdov_update_text'] = 'Melden Sie sich auf Ihrem Server als root an und führen Sie folgendes Kommando auf der Shell aus<br /><br /> <strong>rmnetdov_update.sh</strong><br /><br />um das RM-Net - DOV CP Update zu starten.<br /><br /><a href=https://www.faqforge.com/linux/controlpanels/ispconfig3/how-to-update-ispconfig-3/ target=_blank>Klicken Sie hier um eine detailierte Beschreibung zu erhalten</a>';
+?>

@@ -1,0 +1,3 @@
+<?php
+$wb['page_head_txt'] = 'Ferramentas do RM-Net - DOV CP';
+$wb['page_desc_txt'] = 'Modificar configurações de usuário';

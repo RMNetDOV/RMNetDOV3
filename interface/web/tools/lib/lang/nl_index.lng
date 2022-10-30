@@ -1,0 +1,4 @@
+<?php
+$wb['page_head_txt'] = 'RM-Net - DOV CP Tools';
+$wb['page_desc_txt'] = 'Gebruikersinstellingen';
+?>

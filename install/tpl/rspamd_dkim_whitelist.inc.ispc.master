@@ -1,0 +1,5 @@
+# Seznam dovoljenih domen prek veljavnega pravilnika DKIM
+# (Raje spf_dkim_whitelist za domene, ki uporabljajo SPF in DKIM.)
+
+rm-net.si
+

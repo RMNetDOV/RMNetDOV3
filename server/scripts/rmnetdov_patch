@@ -1,0 +1,126 @@
+#!/usr/bin/php
+<?php
+
+function sread() {
+    $input = fgets(STDIN);
+    return rtrim($input);
+}
+
+function swrite($text = '') {
+	echo $text;
+}
+
+function swriteln($text = '') {
+	echo $text."\n";
+}
+
+function simple_query($query, $answers, $default)
+{
+		$finished = false;
+		do {
+			if(is_array($answers)) {
+                $answers_str = implode(',', $answers);
+                swrite($query.' ('.$answers_str.') ['.$default.']: ');
+            } else {
+                swrite($query.': ');
+            }
+			$input = sread();
+
+			//* Stop the installation
+			if($input == 'quit') {
+				swriteln("Patch terminated by user.\n");
+				die();
+			}
+
+			//* Select the default
+			if($input == '') {
+				$answer = $default;
+				$finished = true;
+			}
+
+            //* Set answer id valid
+			if(!is_array($answers) || in_array($input, $answers)) {
+				$answer = $input;
+				$finished = true;
+			}
+
+		} while ($finished == false);
+		swriteln();
+		return $answer;
+}
+
+function is_installed($appname) {
+	$out = array();
+	$returncode = null;
+	exec('which '.escapeshellarg($appname).' 2> /dev/null',$out,$returncode);
+	if(isset($out[0]) && stristr($out[0],$appname) && $returncode == 0) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+$cmd_opt = getopt('', array('patch_id::'));
+$auto = false;
+if(isset($cmd_opt['patch_id'])) {
+	$patch_id = $cmd_opt['patch_id'];
+	$auto = true;
+}
+
+echo "\n\n".str_repeat('-',80)."\n";
+echo "     ____  __  ___      _   __     __              ____  ____ _    __
+          / __ \/  |/  /     / | / /__  / /_            / __ \/ __ \ |  / /
+         / /_/ / /|_/ /_____/  |/ / _ \/ __/  ______   / / / / / / / | / /
+        / _, _/ /  / /_____/ /|  /  __/ /_   /_____/  / /_/ / /_/ /| |/ /
+       /_/ |_/_/  /_/     /_/ |_/\___/\__/           /_____/\____/ |___/ ";
+echo "\n".str_repeat('-',80)."\n";
+echo "\n\n>> Patch tool  \n\n";
+if(!$auto) {
+	echo "Vnesite ID popravka, ki ga želite uporabiti za vašo namestitev RM-Net - DOV.\nZavedajte se, da NE prevzemamo odgovornosti, da bo to delovalo za vas.\nPobliže uporabljajte le, če veste, kaj počnete.\n\n";
+}
+
+if(!is_installed('patch')) {
+	swriteln("Na vašem strežniku manjka programski 'patch'. Namestite ga in poskusite znova.");
+	exit;
+}
+
+if(!$auto) {
+	$patch_id = simple_query('Vnesite ID popravka', false, '');
+}
+if($patch_id == '') {
+    swriteln("Popravek je prekinil uporabnik.\n");
+    die();
+} elseif(preg_match('/^[a-zA-Z0-9_\-]+$/', $patch_id) == false) {
+    swriteln("Invalid patch id.\n");
+    die();
+}
+
+$patch_data = @file_get_contents('https://github.com/orgs/RM-Net-DOV-Control-Panel_patch/dashboard/' . $patch_id . '.diff');
+if(!$patch_data) {
+    swriteln("Patch with id " . $patch_id . " does not exist.\n");
+    die();
+}
+
+$patch_text = @file_get_contents('https://github.com/orgs/RM-Net-DOV-Control-Panel_patch/dashboard/' . $patch_id . '.txt');
+if($patch_text) {
+    if($auto) {
+		$ok = 'y';
+	} else {
+		$ok = simple_query("Opis popravka:\n" . str_repeat("-", 80) . "\n" . $patch_text . "\n" . str_repeat("-", 80) . "\nAli res želite uporabiti ta popravek zdaj?", array('y', 'n'), 'y');
+	}
+	if($ok != 'y') {
+        swriteln("Patch terminated by user.\n");
+        die();
+    }
+}
+
+$temp_file = tempnam(sys_get_temp_dir(), 'ispc');
+
+file_put_contents($temp_file, $patch_data);
+chdir('/usr/local/rmnetdov');
+
+passthru('patch -p0 < ' . escapeshellarg($temp_file));
+
+unlink($temp_file);
+
+exit;

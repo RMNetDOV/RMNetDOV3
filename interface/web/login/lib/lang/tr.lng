@@ -1,0 +1,35 @@
+<?php
+$wb['error_user_password_empty'] = 'Kullanıcı adı ya da parola boş';
+$wb['error_user_password_incorrect'] = 'Kullanıcı adı ya da parola hatalı';
+$wb['error_user_blocked'] = 'Kullanıcı engellenmiş.';
+$wb['error_user_too_many_logins'] = 'Fazla sayıda hatalı oturum açmayı denediniz, Lütfen 15 dakika sonra yeniden deneyin.';
+$wb['pass_reset_txt'] = 'Yazdığınız e-posta adresi hesabınızdakine uyarsa, yeni bir parola üretilerek e-posta adresinize gönderilir.';
+$wb['pw_reset'] = 'Parolanız sıfırlandı ve e-posta adresinize gönderildi.';
+$wb['pw_reset_act'] = 'Size bir etkinleştirme bağlantısı gönderildi. Parola isteğinizi onaylamak için bağlantıya tıklayın.';
+$wb['pw_error'] = 'Kullanıcı adı ya da e-posta adresiniz doğru değil.';
+$wb['pw_error_noinput'] = 'Lütfen e-posta adresinizi ya da kullanıcı adınızı yazın.';
+$wb['pw_reset_error_smtp_connection'] = 'There was a connection problem when trying to send an email pertaining to your password reset request.';
+$wb['pw_reset_mail_msg'] = 'RM-Net - DOV CP 3 Kontrol Paneli parolanız sıfırlandı. Yeni parolanız: ';
+$wb['pw_reset_mail_title'] = 'RM-Net - DOV CP 3 Kontrol Paneli parolanız sıfırlandı';
+$wb['pw_reset_act_mail_title'] = 'RM-Net - DOV CP 3 Control Panel parola sıfırlama isteğini onaylayın';
+$wb['pw_reset_act_mail_msg'] = 'Lütfen RM-Net - DOV CP 3 Control Panel hesabınızın parolasını sıfırlamak için şu bağlantıya tıklayın: ';
+$wb['user_regex_error'] = 'Kullanıcı adınız izin verilmeyen karakterlerden oluşuyor ya da 64 karakterden uzun.';
+$wb['pw_error_length'] = 'Parola 64 karakterden uzun.';
+$wb['email_error'] = 'E-posta adresi izin verilmeyen karakterlerden oluşuyor ya da biçimi hatalı.';
+$wb['login_txt'] = 'Oturum Aç';
+$wb['username_txt'] = 'Kullanıcı Adı';
+$wb['password_txt'] = 'Parola';
+$wb['login_button_txt'] = 'Oturum Aç';
+$wb['pw_lost_txt'] = 'Parolamı Unuttum';
+$wb['pw_reset_txt'] = 'Parola Sıfırlama';
+$wb['pw_button_txt'] = 'Parolayı Yeniden Gönder';
+$wb['email_txt'] = 'E-posta';
+$wb['back_txt'] = 'Geri';
+$wb['error_maintenance_mode'] = 'RM-Net - DOV CP bakımda. Kısa bir süre sonra yeniden çalışıyor olacak, sabrınız için teşekkürler.';
+$wb['theme_not_compatible'] = 'Seçilmiş tema geçerli RM-Net - DOV CP sürümü ile uyumlu değil. Lütfen temanın yeni sürümünü araştırın.<br />Varsayılan tema etkinleştirildi.';
+$wb['stay_logged_in_txt'] = 'Oturumum açık kalsın';
+$wb['lost_password_function_disabled_txt'] = 'Bu kullanıcı parolamı unuttum özelliğini kullanamaz.';
+$wb['lost_password_function_wait_txt'] = 'Henüz yeni parola isteğinde bulunamazsınız. Lütfen bir kaç dakika bekleyin.';
+$wb['lost_password_function_expired_txt'] = 'Bu etkinleştirme bağlantısının süresi geçmiş. Lütfen yeni bir parola sıfırlama isteğinde bulunun.';
+$wb['lost_password_function_denied_txt'] = 'Bu etkinleştirme bağlantısı geçersiz.';
+?>

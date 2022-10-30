@@ -1,0 +1,12 @@
+<?php
+$wb['User Settings'] = 'Configurações de usuários';
+$wb['Settings'] = 'Configurações';
+$wb['RMNetDOV Tools'] = 'Ferramentas';
+$wb['Interface'] = 'Interface';
+$wb['Password and Language'] = 'Senha e Idioma';
+$wb['rmnetdov_tools_note'] = 'Este módulo permite modificar a senha e idioma e iniciar a sincronização de registros DNS.';
+$wb['Sync Tools'] = 'Sincronização';
+$wb['Resync'] = 'Sincronizar';
+$wb['Import'] = 'Importar';
+$wb['RMNetDOV 3 mail'] = 'eMails do RM-Net - DOV CP';
+$wb['PDNS Tupa'] = 'PowerDNS';
