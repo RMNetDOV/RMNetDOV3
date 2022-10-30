@@ -1,0 +1,36 @@
+<?php
+$wb['uid_txt'] = 'Identifikator uporabnika (UID)';
+$wb['gid_txt'] = 'Identifikator skupine (GID)';
+$wb['dir_txt'] = 'Imenik';
+$wb['quota_files_txt'] = 'Datotečna kvota';
+$wb['quota_files_unity_txt'] = 'Datoteke';
+$wb['ul_ratio_txt'] = 'Razmerje nalaganja';
+$wb['dl_ratio_txt'] = 'Razmerje prenosa';
+$wb['ul_bandwidth_txt'] = 'Pasovna širina nalaganja';
+$wb['dl_bandwidth_txt'] = 'Pasovna širina prenosa';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['parent_domain_id_txt'] = 'Spletna stran';
+$wb['username_txt'] = 'Uporabniško ime';
+$wb['password_txt'] = 'Geslo';
+$wb['password_strength_txt'] = 'Moč gesla';
+$wb['quota_size_txt'] = 'Kvota trdega diska';
+$wb['active_txt'] = 'Aktivno';
+$wb['limit_ftp_user_txt'] = 'Najv. število uporabnikov FTP za vaš račun je doseženo.';
+$wb['username_error_empty'] = 'Uporabniško ime je prazno.';
+$wb['username_error_unique'] = 'Uporabniško ime mora biti edinstveno.';
+$wb['username_error_regex'] = 'Uporabniško ime vsebuje znake, ki niso dovoljeni.';
+$wb['quota_size_error_empty'] = 'Kvota je prazna.';
+$wb['uid_error_empty'] = 'UID prazen.';
+$wb['uid_error_empty'] = 'GID prazen.';
+$wb['directory_error_empty'] = 'Imenik je prazen.';
+$wb['directory_error_notinweb'] = 'Imenik ni v spletnem korenskem imeniku.';
+$wb['parent_domain_id_error_empty'] = 'Ni izbranega spletnega mesta.';
+$wb['quota_size_error_regex'] = 'Kvota: vnesite -1 za neomejeno ali število > 0';
+$wb['dir_dot_error'] = 'Na poti ni dovoljeno ..';
+$wb['dir_slashdot_error'] = 'Na poti ni dovoljeno ./.';
+$wb['generate_password_txt'] = 'Ustvari geslo';
+$wb['repeat_password_txt'] = 'Ponovi geslo';
+$wb['password_mismatch_txt'] = 'Gesli se ne ujemata.';
+$wb['password_match_txt'] = 'Gesli se ujemata.';
+$wb['expires_txt'] = 'Poteče ob';
+?>

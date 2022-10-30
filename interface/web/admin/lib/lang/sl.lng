@@ -1,0 +1,64 @@
+<?php
+//Napake
+$wb[1001] = 'Uporabniško ime ali geslo je prazno.';
+$wb[1002] = 'Uporabniško ime ali geslo je napačno.';
+
+$wb['Groups'] = 'Skupine';
+$wb['groups_description'] = 'Obrazec za urejanje sistemskih uporabniških skupin.';
+
+$wb['Servers'] = 'Strežniki';
+$wb['Config'] = 'Konfiguracija';
+
+$wb['Add user'] = 'Dodaj uporabnika';
+$wb['Edit user'] = 'Uredi uporabnika';
+$wb['Add group'] = 'Dodaj skupino';
+$wb['Edit group'] = 'Uredi skupino';
+$wb['Edit server'] = 'Uredi strežnik';
+
+$wb['Sinhronizacija. Zdaj'] = 'Sinhronizacija. Zdaj';
+$wb['DB Sync.'] = 'DB Sync.';
+
+// podnav
+$wb['User Management'] = 'Upravljanje uporabnikov';
+$wb['CP Users'] = 'CP uporabniki';
+$wb['Remote Users'] = 'Oddaljeni uporabniki';
+
+$wb['System'] = 'Sistem';
+$wb['Server Services'] = 'Storitve strežnika';
+    $wb['Services'] = 'Storitve';
+$wb['Server Config'] = 'Konfiguracija strežnika';
+    $wb['Server'] = 'Strežnik';
+    $wb['Mail'] = 'Pošta';
+    $wb['Getmail'] = 'Getmail';
+    $wb['Web'] = 'Splet';
+    $wb['FastCGI'] = 'FastCGI';
+    $wb['Jailkit'] = 'Jailkit';
+    $wb['Rescue'] = 'Reševanje';
+$wb['Server IP addresses'] = 'Naslovi IP strežnika';
+$wb['Additional PHP Versions'] = 'Dodatne različice PHP';
+$wb['Directive Snippets'] = 'Izrezki direktiv';
+$wb['Firewall'] = 'Požarni zid';
+
+$wb['Interface'] = 'Vmesnik';
+$wb['Interface Config'] = 'Glavna konfiguracija';
+    $wb['Sites'] = 'Spletna mesta';
+    $wb['DNS'] = 'DNS';
+    $wb['Domains'] = 'Domene';
+    $wb['Misc'] = 'Razno';
+
+$wb['Software'] = 'Aplikacije in dodatki';
+$wb['Repositories'] = 'Repozitoriji';
+$wb['Packages'] = 'Paketi';
+$wb['Updates'] = 'Posodobitve';
+
+$wb['Language Editor'] = 'Urejevalnik jezika';
+$wb['Languages'] = 'Jeziki';
+$wb['New Language'] = 'Nov jezik';
+$wb['Merge'] = 'Združi';
+$wb['Export'] = 'Izvoz';
+$wb['Import'] = 'Uvoz';
+
+$wb['Remote Actions'] = 'Oddaljena dejanja';
+$wb['Do OS-Update'] = 'Naredi OS-Update';
+$wb['Do RMNetDOV-Update'] = 'Do RM-Net - DOV CP-Update';
+?>

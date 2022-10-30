@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'E-poštna domena';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['domain_txt'] = 'Domena';
+$wb['add_new_record_txt'] = 'Dodaj novo domeno';
+$wb['active_txt'] = 'Aktivno';
+$wb['sys_groupid_txt'] = 'Odjemalec';
+?>

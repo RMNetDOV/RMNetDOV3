@@ -1,0 +1,4 @@
+<?php
+$wb['invoice_client_settings_txt'] = 'Nastavitve odjemalca računa';
+$wb['edit_txt'] = 'Uredi';
+?>

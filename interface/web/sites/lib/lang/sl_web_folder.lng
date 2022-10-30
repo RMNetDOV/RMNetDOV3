@@ -1,0 +1,8 @@
+<?php
+$wb['server_id_txt'] = 'Strežnik';
+$wb['parent_domain_id_txt'] = 'Spletna stran';
+$wb['path_txt'] = 'Pot';
+$wb['active_txt'] = 'Aktivno';
+$wb['path_error_regex'] = 'Neveljavna pot do mape.';
+$wb['error_folder_already_protected_txt'] = 'Za to mapo že obstaja zapis.';
+?>

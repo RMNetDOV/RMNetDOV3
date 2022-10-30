@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Mapa';
+$wb['active_txt'] = 'Aktivno';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['parent_domain_id_txt'] = 'Spletna stran';
+$wb['path_txt'] = 'Pot';
+$wb['add_new_record_txt'] = 'Dodaj novo mapo';
+?>

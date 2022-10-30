@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'E-poštni vzdevek';
+$wb['active_txt'] = 'Aktivno';
+$wb['source_txt'] = 'vir';
+$wb['destination_txt'] = 'Cilj';
+$wb['email_txt'] = 'E-pošta';
+$wb['add_new_record_txt'] = 'Dodaj nov e-poštni vzdevek';
+?>

@@ -1,0 +1,8 @@
+<?php
+$wb['faq_section_name_txt'] = 'Ime razdelka';
+$wb['faq_delete_txt'] = 'Izbriši';
+$wb['faq_edit_txt'] = 'Uredi';
+$wb['faq_sections_txt'] = 'Razdelki';
+$wb['faq_faq_sections_txt'] = 'Razdelki s pogostimi vprašanji';
+$wb['faq_new_section_txt'] = 'Dodaj nov razdelek';
+?>

@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'OpenVZ šablona OST';
+$wb['active_txt'] = 'Aktivno';
+$wb['template_name_txt'] = 'Ime predloge';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['allservers_txt'] = 'Obstaja na vseh strežnikih';
+$wb['ostemplate_id_txt'] = 'ID';
+?>

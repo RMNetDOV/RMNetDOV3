@@ -1,0 +1,11 @@
+<?php
+$wb['source_txt'] = 'Vir';
+$wb['destination_txt'] = 'Cilj';
+$wb['active_txt'] = 'Aktivno';
+$wb['no_domain_perm'] = 'Nimate dovoljenja za to domeno.';
+$wb['limit_mailaliasdomain_txt'] = 'Najv. doseženo je število vzdevkov e-poštnih domen za vaš račun.';
+$wb['source_destination_identical_txt'] = 'Izvorna in ciljna domena sta enaki.';
+$wb['source_error_empty'] = 'Izvorna domena je prazna.';
+$wb['source_error_unique'] = 'Podvojena izvorna domena.';
+$wb['source_error_regex'] = 'Neveljavno ime izvorne domene.';
+?>

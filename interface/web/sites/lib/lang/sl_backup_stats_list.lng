@@ -1,0 +1,10 @@
+<?php
+$wb['list_head_txt'] = 'Varnostna statistika';
+$wb['database_name_txt'] = '';
+$wb['active_txt'] = 'Aktivno';
+$wb['domain_txt'] = 'Domena';
+$wb['backup_count_txt'] = 'Število varnostnih kopij';
+$wb['backup_server_txt'] = 'Strežnik';
+$wb['backup_interval_txt'] = 'Interval / cnt.';
+$wb['backup_size_txt'] = 'Velikost varnostne kopije';
+?>

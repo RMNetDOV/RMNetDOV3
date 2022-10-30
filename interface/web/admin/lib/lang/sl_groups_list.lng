@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'Skupine sistemskih uporabnikov';
+$wb['description_txt'] = 'Opis';
+$wb['name_txt'] = 'Skupina';
+$wb['add_new_record_txt'] = 'Dodaj novo skupino';
+$wb['warning_txt'] = '<b>OPOZORILO:</b> Tu ne urejajte ali spreminjajte uporabniških nastavitev. Namesto tega uporabite nastavitve odjemalca in preprodajalca v modulu odjemalca. Spreminjanje ali spreminjanje uporabnikov ali skupin tukaj lahko povzroči izgubo podatkov!';
+?>

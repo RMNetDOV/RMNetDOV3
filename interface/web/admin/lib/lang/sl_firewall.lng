@@ -1,0 +1,11 @@
+<?php
+$wb['server_id_txt'] = 'Strežnik';
+$wb['tcp_port_txt'] = 'Odpri vrata TCP';
+$wb['udp_port_txt'] = 'Odpri vrata UDP';
+$wb['tcp_port_help_txt'] = 'Ločeno z vejico';
+$wb['udp_port_help_txt'] = 'Ločeno z vejico';
+$wb['active_txt'] = 'Aktivno';
+$wb['firewall_error_unique'] = 'Za ta strežnik že obstaja zapis požarnega zidu.';
+$wb['tcp_ports_error_regex'] = 'Znak ni dovoljen v definiciji vrat TCP. Dovoljeni znaki so številke, dvopičja (:) in vejice.';
+$wb['udp_ports_error_regex'] = 'Znak ni dovoljen v definiciji vrat UDP. Dovoljeni znaki so številke, dvopičja (:) in vejice.';
+?>

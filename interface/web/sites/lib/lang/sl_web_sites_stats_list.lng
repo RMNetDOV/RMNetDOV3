@@ -1,0 +1,10 @@
+<?php
+$wb['list_head_txt'] = 'Spletni promet';
+$wb['domain_txt'] = 'Domena';
+$wb['this_month_txt'] = 'Ta mesec';
+$wb['last_month_txt'] = 'Prejšnji mesec';
+$wb['this_year_txt'] = 'Letos';
+$wb['last_year_txt'] = 'Lansko leto';
+$wb['sum_txt'] = 'Vsota';
+$wb['percentage_txt'] = 'V uporabi %';
+$wb['quota_txt'] = 'Kvota';

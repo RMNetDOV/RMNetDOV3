@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Uporabnik lupine';
+$wb['active_txt'] = 'Aktivno';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['parent_domain_id_txt'] = 'Spletno mesto';
+$wb['username_txt'] = 'Uporabniško ime';
+$wb['add_new_record_txt'] = 'Dodaj novega uporabnika lupine';
+?>

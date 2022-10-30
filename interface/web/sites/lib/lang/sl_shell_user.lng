@@ -1,0 +1,36 @@
+<?php
+$wb['puser_txt'] = 'Spletno uporabniško ime';
+$wb['pgroup_txt'] = 'Spletna skupina';
+$wb['shell_txt'] = 'Lupina';
+$wb['dir_txt'] = 'Osnovni direktor';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['parent_domain_id_txt'] = 'Spletno mesto';
+$wb['username_txt'] = 'Uporabniško ime';
+$wb['password_txt'] = 'Geslo';
+$wb['password_strength_txt'] = 'Moč gesla';
+$wb['chroot_txt'] = 'Chroot Shell';
+$wb['quota_size_txt'] = 'Kvota';
+$wb['active_txt'] = 'Aktivno';
+$wb['username_error_empty'] = 'Uporabniško ime je prazno.';
+$wb['username_error_unique'] = 'Uporabniško ime mora biti edinstveno.';
+$wb['username_error_regex'] = 'Uporabniško ime vsebuje znake, ki niso dovoljeni.';
+$wb['quota_size_error_empty'] = 'Kvota je prazna.';
+$wb['uid_error_empty'] = 'GID prazen.';
+$wb['directory_error_empty'] = 'Imenik je prazen.';
+$wb['limit_shell_user_txt'] = 'Doseženo je največje število uporabnikov lupine.';
+$wb['parent_domain_id_error_empty'] = 'Ni izbranega spletnega mesta.';
+$wb['ssh_rsa_txt'] = 'Javni ključ SSH-RSA (za prijave na podlagi ključa)';
+$wb['dir_dot_error'] = 'Na poti ni dovoljeno ..';
+$wb['dir_slashdot_error'] = 'Na poti ni dovoljeno ./.';
+$wb['generate_password_txt'] = 'Ustvari geslo';
+$wb['repeat_password_txt'] = 'Ponovi geslo';
+$wb['password_mismatch_txt'] = 'Gesli se ne ujemata.';
+$wb['password_match_txt'] = 'Gesli se ujemata.';
+$wb['username_must_not_exceed_32_chars_txt'] = 'Uporabniško ime ne sme presegati 32 znakov.';
+$wb['username_not_allowed_txt'] = 'Uporabniško ime ni dovoljeno.';
+$wb['invalid_system_user_or_group_txt'] = 'Neveljaven sistemski uporabnik ali skupina';
+$wb['directory_error_regex'] = 'Neveljaven imenik';
+$wb['shell_error_regex'] = 'Neveljavna lupina';
+$wb['invalid_username_txt'] = 'Neveljavno uporabniško ime';
+$wb['directory_error_notinweb'] = 'Imenik mora biti znotraj spletnega korena.';
+?>

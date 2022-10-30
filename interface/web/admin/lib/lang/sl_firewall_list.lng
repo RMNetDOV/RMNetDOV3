@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Požarni zid';
+$wb['active_txt'] = 'Aktivno';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['tcp_port_txt'] = 'Odpri vrata TCP';
+$wb['udp_port_txt'] = 'Odpri vrata UDP';
+$wb['add_new_record_txt'] = 'Dodaj zapis požarnega zidu';
+?>

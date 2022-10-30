@@ -1,0 +1,8 @@
+<?php
+$wb['shop_txt'] = 'Naročilo';
+$wb['name_txt'] = 'Ime';
+$wb['price_txt'] = 'Cena';
+$wb['setup_fee_txt'] = 'Pristojbina za namestitev';
+$wb['no_products_txt'] = 'Ni izdelkov.';
+$wb['order_txt'] = 'Naročilo';
+?>

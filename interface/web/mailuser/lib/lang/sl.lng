@@ -1,0 +1,9 @@
+<?php
+$wb['Email Account'] = 'E-poštni račun';
+$wb['Overview'] = 'Pregled';
+$wb['Password'] = 'Geslo';
+$wb['Autoresponder'] = 'Samodejni odzivnik';
+$wb['Send copy'] = 'Pošlji kopijo';
+$wb['Spamfilter'] = 'Filter za neželeno pošto';
+$wb['Email Filters'] = 'E-poštni filtri';
+?>

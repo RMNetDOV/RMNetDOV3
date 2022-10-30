@@ -1,0 +1,16 @@
+<?php
+$wb['server_id_txt'] = 'Strežnik';
+$wb['zone_txt'] = 'Območje';
+$wb['name_txt'] = 'Deskriptor storitve';
+$wb['type_txt'] = 'vrsta';
+$wb['data_txt'] = 'Podatki TLSA';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = 'Aktivno';
+$wb['limit_dns_record_txt'] = 'Najv. doseženo je število zapisov DNS za vaš račun.';
+$wb['no_zone_perm'] = 'Nimate dovoljenja za dodajanje zapisa v to območje DNS.';
+$wb['name_error_empty'] = 'Ime gostitelja je prazno.';
+$wb['name_error_regex'] = 'Ime gostitelja ima napačno obliko. Pravilno: _&lt;port&gt;._(tcp|udp).&lt;hostname&gt;';
+$wb['data_error_empty'] = 'Podatki TLSA so prazni';
+$wb['data_error_regex'] = 'Format podatkov TLSA je napačen. Pravilno: n n n HASH';
+$wb['ttl_range_error'] = 'Min. Čas TTL je 60 sekund.';
+?>

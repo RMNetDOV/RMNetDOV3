@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Uporabniški računi XMPP';
+$wb['jid_txt'] = 'Jabber ID';
+$wb['is_domain_admin_txt'] = 'Skrbnik domene';
+$wb['is_muc_admin_txt'] = 'Skrbnik MUC';
+$wb['add_new_record_txt'] = 'Dodaj novega uporabnika';
+$wb['active_txt'] = 'Aktivno';
+?>

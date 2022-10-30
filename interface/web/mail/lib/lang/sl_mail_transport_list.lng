@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'Napredno usmerjanje e-pošte';
+$wb['active_txt'] = 'Aktivno';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['domain_txt'] = 'Domena';
+$wb['transport_txt'] = 'Prevoz';
+$wb['sort_order_txt'] = 'Razvrsti po';
+$wb['add_new_record_txt'] = 'Dodaj nov transport';
+?>

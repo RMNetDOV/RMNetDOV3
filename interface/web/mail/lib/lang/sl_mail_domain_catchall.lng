@@ -1,0 +1,14 @@
+<?php
+$wb['domain_txt'] = 'Domena';
+$wb['destination_txt'] = 'Ciljna e-pošta';
+$wb['active_txt'] = 'Aktivno';
+$wb['domain_error_unique'] = 'Za to domeno že obstaja zapis Catchall.';
+$wb['no_domain_perm'] = 'Nimate dovoljenja za to domeno.';
+$wb['domain_error_regex'] = 'Neveljavno ime domene ali domena vsebuje neveljavne znake.';
+$wb['limit_mailcatchall_txt'] = 'Najv. doseženo je število računov za prestrezanje e-pošte za vaš račun.';
+$wb['domain_txt'] = 'Domena';
+$wb['source_txt'] = 'Vir';
+$wb['destination_error_isemail'] = 'Cilj ni veljaven e-poštni naslov.';
+$wb['greylisting_txt'] = 'Omogoči sivi seznam';
+$wb['send_as_txt'] = 'Pošlji kot';
+$wb['send_as_exp'] = 'Dovoli destinaciji pošiljanje z e-poštnih naslovov v tej domeni';

@@ -1,0 +1,15 @@
+<?php
+$wb['login_1_txt'] = 'Ali se želite prijaviti kot uporabnik';
+$wb['login_2_txt'] = 'Če to storite, se lahko "vrnete nazaj" s klikom ob odjavi.';
+$wb['btn_yes_txt'] = 'Da, prijavi se kot odjemalec';
+$wb['btn_back_txt'] = 'Ne, nazaj na seznam';
+$wb['udp_port_help_txt'] = 'Ločeno z vejico';
+$wb['active_txt'] = 'Aktivno';
+$wb['firewall_error_unique'] = 'Za ta strežnik že obstaja zapis požarnega zidu.';
+$wb['active_txt'] = 'Aktivno';
+$wb['tcp_ports_error_regex'] = 'Znak ni dovoljen v definiciji vrat tcp. Dovoljeni znaki so številke, ":" in ",".';
+$wb['udp_ports_error_regex'] = 'Znak ni dovoljen v definiciji vrat udp. Dovoljeni znaki so številke, ":" in ",".';
+$wb['login_as_or_logout_txt'] = 'Ali se želite znova prijaviti kot {UTYPE} ali se odjaviti?';
+$wb['btn_reloginas_txt'] = 'Da, ponovno se prijavi kot %s';
+$wb['btn_nologout_txt'] = 'Ne, odjava';
+?>

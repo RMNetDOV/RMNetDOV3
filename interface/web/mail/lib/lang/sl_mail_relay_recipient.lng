@@ -1,0 +1,9 @@
+<?php
+$wb['server_id_txt'] = 'Strežnik';
+$wb['source_txt'] = 'Prejemnik posredovanja';
+$wb['recipient_txt'] = 'Prejemnik';
+$wb['active_txt'] = 'Aktivno';
+$wb['source_error_notempty'] = 'Naslov je prazen.';
+$wb['type_txt'] = 'Tip';
+$wb['limit_mailfilter_txt'] = 'Najv. doseženo je število e-poštnih filtrov za vaš račun.';
+?>

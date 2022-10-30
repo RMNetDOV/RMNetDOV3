@@ -1,0 +1,13 @@
+<?php
+$wb['server_ip_edit_title'] = 'Naslovi IP';
+$wb['server_ip_edit_desc'] = 'Obrazec za urejanje sistemskih IP naslovov';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['client_id_txt'] = 'Odjemalec';
+$wb['ip_type_txt'] = 'Vrsta';
+$wb['ip_address_txt'] = 'IP naslov';
+$wb['virtualhost_txt'] = 'HTTP NameVirtualHost';
+$wb['virtualhost_port_txt'] = 'Vrata HTTP';
+$wb['ip_error_wrong'] = 'Naslov IP ni veljaven';
+$wb['ip_error_unique'] = 'Naslov IP mora biti edinstven';
+$wb['error_port_syntax'] = 'Neveljavni znaki v polju vrat, vnesite samo številke, ločene z vejicami. Primer: 80,443';
+?>

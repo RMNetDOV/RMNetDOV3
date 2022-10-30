@@ -1,0 +1,16 @@
+<?php
+$wb['server_id_txt'] = 'Strežnik';
+$wb['zone_txt'] = 'Območje';
+$wb['name_txt'] = 'Ime';
+$wb['type_txt'] = 'vrsta';
+$wb['data_txt'] = 'Kanonično ime gostitelja';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = 'Aktivno';
+$wb['limit_dns_record_txt'] = 'Najv. doseženo je število zapisov DNS za vaš račun.';
+$wb['no_zone_perm'] = 'Nimate dovoljenja za dodajanje zapisa v to območje DNS.';
+$wb['name_error_empty'] = 'Ime je prazno.';
+$wb['name_error_regex'] = 'Ime je v napačni obliki.';
+$wb['data_error_empty'] = 'Kanonično ime gostitelja je prazno';
+$wb['data_error_regex'] = 'Kanonična oblika imena gostitelja ni veljavna';
+$wb['ttl_range_error'] = 'Min. Čas TTL je 60 sekund.';
+?>

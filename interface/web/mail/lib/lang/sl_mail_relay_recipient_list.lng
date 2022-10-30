@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'Prejemniki posredovanja';
+$wb['active_txt'] = 'Aktivno';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['source_txt'] = 'Naslov prejemnika';
+$wb['recipient_txt'] = 'Prejemnik';
+$wb['add_new_record_txt'] = 'Dodaj novega prejemnika releja';
+$wb['access_txt'] = 'dostop';
+?>

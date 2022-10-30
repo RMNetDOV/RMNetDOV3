@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'E-poštno sporočilo';
+$wb['active_txt'] = 'Aktivno';
+$wb['source_txt'] = 'vir';
+$wb['destination_txt'] = 'Ciljni e-poštni naslov';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['domain_txt'] = 'Domena';
+$wb['add_new_record_txt'] = 'Dodaj nov Catchall';
+?>

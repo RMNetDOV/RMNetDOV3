@@ -1,0 +1,35 @@
+<?php
+$wb['error_user_password_empty'] = 'Uporabniško ime ali geslo je prazno.';
+$wb['error_user_password_incorrect'] = 'Napačno uporabniško ime ali geslo.';
+$wb['error_user_blocked'] = 'Uporabnik je blokiran.';
+$wb['error_user_too_many_logins'] = 'Preveč neuspelih poskusov prijave. Poskusite znova čez 15 minut';
+$wb['pass_reset_txt'] = 'Novo geslo bo ustvarjeno in poslano na vaš e-poštni naslov, če se spodnji e-poštni naslov ujema z e-poštnim naslovom v nastavitvah vašega odjemalca.';
+$wb['pw_reset'] = 'Geslo je bilo ponastavljeno in poslano na vaš e-poštni naslov.';
+$wb['pw_reset_act'] = 'Poslana vam je povezava za ponastavitev gesla. Obiščite povezavo, da potrdite zahtevo za ponastavitev gesla.';
+$wb['pw_error'] = 'Uporabniško ime ali e-poštni naslov se ne ujemata.';
+$wb['pw_error_noinput'] = 'Prosimo, vnesite e-poštni naslov in uporabniško ime.';
+$wb['pw_reset_error_smtp_connection'] = 'Pri poskusu pošiljanja e-pošte v zvezi z vašo zahtevo za ponastavitev gesla je prišlo do težave s povezavo.';
+$wb['pw_reset_mail_msg'] = 'Geslo za vaš račun nadzorne plošče RM-Net - DOV CP 3 je bilo ponastavljeno. Novo geslo je: ';
+$wb['pw_reset_mail_title'] = 'RM-Net - Geslo nadzorne plošče DOV CP 3 je bilo ponastavljeno';
+$wb['pw_reset_act_mail_title'] = 'Potrdi ponastavitev gesla za RM-Net - DOV CP 3';
+$wb['pw_reset_act_mail_msg'] = 'Prosimo potrdite, da želite ponastaviti geslo za račun nadzorne plošče RM-Net - DOV CP 3, tako da obiščete naslednjo aktivacijsko povezavo: ';
+$wb['user_regex_error'] = 'Uporabniško ime vsebuje nedovoljene znake ali je daljše od 64 znakov.';
+$wb['pw_error_length'] = 'Dolžina gesla je < 1 ali > 256 znakov.';
+$wb['email_error'] = 'E-poštno sporočilo vsebuje nedovoljene znake ali ima neveljavno obliko.';
+$wb['login_txt'] = 'Prijava';
+$wb['username_txt'] = 'Uporabniško ime';
+$wb['password_txt'] = 'Geslo';
+$wb['login_button_txt'] = 'Prijava';
+$wb['pw_lost_txt'] = 'Geslo izgubljeno';
+$wb['pw_reset_txt'] = 'Ponastavitev gesla';
+$wb['pw_button_txt'] = 'Ponovno pošlji geslo';
+$wb['email_txt'] = 'E-pošta';
+$wb['back_txt'] = 'Nazaj';
+$wb['error_maintenance_mode'] = 'Ta namestitev RM-Net - DOV CP je trenutno v vzdrževanju. Kmalu bi se morali vrniti. Hvala za vaše potrpljenje.';
+$wb['theme_not_compatible'] = 'Izbrana tema ni združljiva s trenutno različico RM-Net - DOV CP. Preverite novo različico teme.<br />Privzeta tema je bila samodejno aktivirana.';
+$wb['stay_logged_in_txt'] = 'Ohrani me prijavljenega';
+$wb['lost_password_function_disabled_txt'] = 'Funkcija izgubljenega gesla ni na voljo za tega uporabnika.';
+$wb['lost_password_function_wait_txt'] = 'Ne morete še zahtevati novega gesla. Počakajte nekaj minut.';
+$wb['lost_password_function_expired_txt'] = 'Ta aktivacijska povezava je potekla. Zahtevajte novega.';
+$wb['lost_password_function_denied_txt'] = 'Ta aktivacijska povezava ni veljavna.';
+?>

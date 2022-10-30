@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Vzdevek domene';
+$wb['active_txt'] = 'Aktivno';
+$wb['source_txt'] = 'Vir';
+$wb['destination_txt'] = 'Cilj';
+$wb['source_txt'] = 'Vir';
+$wb['add_new_record_txt'] = 'Dodaj nov vzdevek domene';
+?>

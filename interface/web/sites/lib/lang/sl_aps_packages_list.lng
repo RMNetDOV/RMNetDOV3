@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Razpoložljivi paketi';
+$wb['name_txt'] = 'Ime';
+$wb['version_txt'] = 'Različica';
+$wb['category_txt'] = 'Kategorija';
+$wb['status_txt'] = 'Odklenjeno';
+$wb['filter_txt'] = 'Iskanje';
+?>

@@ -1,0 +1,11 @@
+<?php
+$wb['list_head_txt'] = 'Baza podatkov';
+$wb['active_txt'] = 'Aktivno';
+$wb['remote_access_txt'] = 'Oddaljeni dostop';
+$wb['type_txt'] = 'Tip';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['database_user_txt'] = 'Uporabnik baze podatkov';
+$wb['database_name_txt'] = 'Ime baze podatkov';
+$wb['add_new_record_txt'] = 'Dodaj novo bazo podatkov';
+$wb['parent_domain_id_txt'] = 'Spletna stran';
+?>

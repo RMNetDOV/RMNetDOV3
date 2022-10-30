@@ -1,0 +1,15 @@
+<?php
+$wb['list_head_txt'] = 'Uporabniški računi XMPP';
+$wb['jid_txt'] = 'Jabber ID';
+$wb['active_txt'] = 'Aktivno';
+$wb['cryptpwd_txt'] = 'Geslo';
+$wb['password_strength_txt'] = 'Moč gesla';
+$wb['error_no_pwd'] = 'Geslo je prazno.';
+$wb['password_txt'] = 'Geslo';
+$wb['generate_password_txt'] = 'Ustvari geslo';
+$wb['repeat_password_txt'] = 'Ponovi geslo';
+$wb['password_mismatch_txt'] = 'Gesli se ne ujemata.';
+$wb['password_match_txt'] = 'Gesli se ujemata.';
+$wb['no_domain_perm'] = 'Nimate dovoljenja za to domeno.';
+$wb['limit_xmpp_user_txt'] = 'Najv. število xmpp računov za vaš račun je doseženo.';
+?>

@@ -1,0 +1,8 @@
+<?php
+$wb['mailquota_txt'] = 'Kvota poštnega predala';
+$wb['email_txt'] = 'E-poštni naslov';
+$wb['name_txt'] = 'Ime';
+$wb['used_txt'] = 'Uporabljen prostor';
+$wb['quota_txt'] = 'Kvota';
+$wb['no_email_accounts_txt'] = 'Ni najdenih e-poštnih računov.';
+?>

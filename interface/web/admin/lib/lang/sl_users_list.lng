@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'Uporabniki';
+$wb['username_txt'] = 'Uporabniško ime';
+$wb['client_id_txt'] = 'ID uporabnika';
+$wb['active_txt'] = 'Aktivno';
+$wb['groups_txt'] = 'Skupine';
+$wb['add_new_record_txt'] = 'Dodaj novega uporabnika';
+$wb['warning_txt'] = '<b>OPOZORILO:</b> Tu ne urejajte ali spreminjajte uporabniških nastavitev odjemalca. Namesto tega uporabite nastavitve odjemalca in prodajalca v odjemalskem modulu. Spreminjanje ali spreminjanje uporabnikov ali skupin strank tukaj lahko povzroči izgubo podatkov!';
+?>

@@ -1,0 +1,7 @@
+<?php
+$wb['head_txt'] = 'Posodobi seznam paketov';
+$wb['list_desc_txt'] = '';
+$wb['btn_start_txt'] = 'Posodobi seznam paketov';
+$wb['btn_cancel_txt'] = 'Prekliči';
+$wb['legend_txt'] = 'Tukaj lahko posodobite seznam razpoložljivih paketov. Upoštevajte, da lahko to traja do pet minut. To stran lahko zapustite, če želite; proces se bo nadaljeval v ozadju.';
+?>

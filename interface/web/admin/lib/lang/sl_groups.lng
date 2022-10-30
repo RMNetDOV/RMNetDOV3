@@ -1,0 +1,5 @@
+<?php
+$wb['description_txt'] = 'Opis';
+$wb['name_txt'] = 'Skupina';
+$wb['name_err'] = 'Skupina mora imeti najmanj 1, največ 30 znakov.';
+?>

@@ -1,0 +1,7 @@
+<?php
+$wb['Virtual Servers'] = 'Navidezni strežniki';
+$wb['OS Templates'] = 'Predloge OS';
+$wb['VM Templates'] = 'Predloge VM';
+$wb['IP addresses'] = 'IP naslovi';
+$wb['OpenVZ'] = 'OpenVZ';
+?>

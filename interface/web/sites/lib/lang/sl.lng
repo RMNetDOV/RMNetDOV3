@@ -1,0 +1,35 @@
+<?php
+$wb['Websites'] = 'Spletna mesta';
+$wb['Website'] = 'Spletna stran';
+$wb['Subdomain'] = 'Poddomena za spletno stran';
+$wb['Aliasdomain'] = 'Vzdevek domene za spletno stran';
+$wb['Database'] = 'Baze podatkov';
+$wb['Database User'] = 'Uporabniki baze podatkov';
+$wb['Web Access'] = 'Spletni dostop';
+$wb['FTP-User'] = 'FTP-računi';
+$wb['Webdav-User'] = 'Uporabniki WebDAV';
+$wb['Folder'] = 'Zaščitene mape';
+$wb['Folder users'] = 'Uporabniki zaščitene mape';
+$wb['Command Line'] = 'Ukazna vrstica';
+$wb['Shell-User'] = 'Uporabnik lupine';
+$wb['Cron Jobs'] = 'Cron opravila';
+$wb['Statistics'] = 'Statistika';
+$wb['Web traffic'] = 'Spletni promet';
+$wb['Website quota (Harddisk)'] = 'Kvota spletnega mesta (Harddisk)';
+$wb['Cron'] = 'Cron';
+$wb['Stats'] = 'Statistika';
+$wb['Shell'] = 'Lupina';
+$wb['Webdav'] = 'WebDAV';
+$wb['FTP'] = 'FTP';
+$wb['Options'] = 'Možnosti';
+$wb['Domain'] = 'Domena';
+$wb['Redirect'] = 'Preusmeri';
+$wb['SSL'] = 'SSL';
+$wb['Sites'] = 'Spletna mesta';
+$wb['APS Installer'] = 'APS Installer';
+$wb['Available packages'] = 'Razpoložljivi paketi';
+$wb['Installed packages'] = 'Nameščeni paketi';
+$wb['Update Packagelist'] = 'Posodobi seznam paketov';
+$wb['Subdomain (Vhost)'] = 'Poddomena (Vhost)';
+$wb['error_proxy_requires_url'] = 'Vrsta preusmeritve »proxy« zahteva URL kot preusmeritveno pot.';
+?>

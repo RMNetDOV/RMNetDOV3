@@ -1,0 +1,7 @@
+<?php
+$wb['donate_txt'] = 'Nadzorna plošča gostovanja RM-Net - DOV CP je brezplačna programska oprema. Morda se zavedate, da razvoj, vzdrževanje in podpora tako kompleksnega programskega projekta zahteva veliko časa in truda. Če želite podpreti nadaljnji razvoj RM-Net - DOV CP, razmislite o donaciji. Kot bonus boste prejeli kopijo trenutnega priročnika RM-Net - DOV CP.';
+$wb['donate2_txt'] = 'Znesek donacije je lahko 5 EUR ali več, znesek se izbere na blagajni. Način plačila je PayPal. Od RM-Net - DOV CP UG boste prejeli potrdilo v obliki PDF.';
+$wb['hide_btn_txt'] = 'Skrij';
+$wb['donate_btn_txt'] = 'Podprite RM-Net - DOV CP in pridobite priročnik';
+$wb['more_btn_txt'] = 'Več';
+?>

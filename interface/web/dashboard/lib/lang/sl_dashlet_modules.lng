@@ -1,0 +1,4 @@
+<?php
+$wb['available_modules_txt'] = 'Razpoložljivi moduli';
+$wb['go_to_txt'] = 'Pojdi na';
+?>

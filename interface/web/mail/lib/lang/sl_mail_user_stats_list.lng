@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Poštni promet';
+$wb['email_txt'] = 'E-pošta';
+$wb['this_month_txt'] = 'Ta mesec';
+$wb['last_month_txt'] = 'Prejšnji mesec';
+$wb['this_year_txt'] = 'Letos';
+$wb['last_year_txt'] = 'Lansko leto';
+?>

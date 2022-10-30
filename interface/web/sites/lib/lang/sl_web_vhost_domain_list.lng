@@ -1,0 +1,14 @@
+<?php
+$wb['list_head_txt'] = 'Spletna mesta';
+$wb['domain_id_txt'] = 'ID';
+$wb['active_txt'] = 'Aktivno';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['domain_txt'] = 'Domena';
+$wb['add_new_record_txt'] = 'Dodaj novo spletno stran';
+$wb['add_new_subdomain_txt'] = 'Dodaj novo poddomeno';
+$wb['add_new_aliasdomain_txt'] = 'Dodaj novo vzdevek domene';
+$wb['parent_domain_id_txt'] = 'Spletna stran';
+$wb['domain_list_head_txt'] = 'Spletna mesta';
+$wb['aliasdomain_list_head_txt'] = 'Vzdevki domen (Vhost)';
+$wb['subdomain_list_head_txt'] = 'Poddomene (Vhost)';
+?>

@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'Pravilnik filtra neželene pošte';
+$wb['policy_name_txt'] = 'Ime';
+$wb['virus_lover_txt'] = 'Ljubilec virusov';
+$wb['spam_lover_txt'] = 'Ljubilec neželene pošte';
+$wb['banned_files_lover_txt'] = 'Ljubilec prepovedanih datotek';
+$wb['bad_header_lover_txt'] = 'Slab ljubitelj glave';
+$wb['add_new_record_txt'] = 'Dodaj zapis pravilnika';
+?>

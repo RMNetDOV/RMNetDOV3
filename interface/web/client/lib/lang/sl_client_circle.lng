@@ -1,0 +1,9 @@
+<?php
+$wb['Client Circle'] = 'Krog strank';
+$wb['Circle'] = 'Krog';
+$wb['circle_txt'] = 'Krog';
+$wb['circle_name_txt'] = 'Ime kroga';
+$wb['client_ids_txt'] = 'Stranke/preprodajalci';
+$wb['description_txt'] = 'Opis';
+$wb['active_txt'] = 'Aktivno';
+?>

@@ -1,0 +1,4 @@
+<?php
+$wb['page_head_txt'] = 'RM-Net - DOV CP Orodja';
+$wb['page_desc_txt'] = 'Spremeni uporabniške nastavitve';
+?>

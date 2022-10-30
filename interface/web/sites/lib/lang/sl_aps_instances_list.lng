@@ -1,0 +1,11 @@
+<?php
+$wb['list_head_txt'] = 'Nameščeni paketi';
+$wb['name_txt'] = 'Ime';
+$wb['version_txt'] = 'Različica';
+$wb['customer_txt'] = 'Odjemalec';
+$wb['status_txt'] = 'Stanje';
+$wb['install_location_txt'] = 'Mesta namestitve';
+$wb['pkg_delete_confirmation'] = 'Ali res želite izbrisati to namestitev?';
+$wb['filter_txt'] = 'Iskanje';
+$wb['delete_txt'] = 'Izbriši';
+?>

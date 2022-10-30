@@ -1,0 +1,19 @@
+<?php
+$wb['server_id_txt'] = 'Strežnik';
+$wb['type_txt'] = 'Tip';
+$wb['source_server_txt'] = 'Strežnik Pop3/Imap';
+$wb['source_username_txt'] = 'Uporabniško ime';
+$wb['source_password_txt'] = 'Geslo';
+$wb['source_delete_txt'] = 'Izbriši e-pošto po pridobitvi';
+$wb['source_delete_note_txt'] = 'Preden aktivirate to možnost, najprej preverite, ali pridobivanje e-pošte deluje.';
+$wb['source_read_all_txt'] = 'Pridobi vso e-pošto (vključno s prebrano pošto)';
+$wb['destination_txt'] = 'Cilj';
+$wb['active_txt'] = 'Aktivno';
+$wb['limit_fetchmail_txt'] = 'Najv. doseženo je število zapisov Fetchmail za vaš račun.';
+$wb['source_server_error_isempty'] = 'Strežnik je prazen.';
+$wb['source_username_error_isempty'] = 'Uporabniško ime je prazno.';
+$wb['source_password_error_isempty'] = 'Geslo je prazno.';
+$wb['destination_error_isemail'] = 'Ni izbran cilj.';
+$wb['source_server_error_regex'] = 'Pop3/Imap Strežnik ni veljavno ime domene.';
+$wb['error_delete_read_all_combination'] = 'Nedovoljena kombinacija možnosti. Ne morete uporabiti "Izbriši e-pošto po pridobitvi" = ne skupaj z "Pridobi vso e-pošto" = da';
+?>

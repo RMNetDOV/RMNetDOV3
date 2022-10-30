@@ -1,0 +1,14 @@
+<?php
+$wb['list_head_txt'] = 'Vzdevek domene';
+$wb['active_txt'] = 'Aktivno';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['parent_domain_id_txt'] = 'Spletna stran';
+$wb['domain_txt'] = 'Vzdevek domene';
+$wb['add_new_record_txt'] = 'Dodaj novo vzdevek domene';
+$wb['domain_error_empty'] = 'Domena je prazna.';
+$wb['domain_error_unique'] = 'Domena mora biti edinstvena.';
+$wb['domain_error_regex'] = 'Ime domene ni veljavno.';
+$wb['no_redirect_txt'] = 'Brez preusmeritve';
+$wb['no_flag_txt'] = 'Brez zastavice';
+$wb['none_txt'] = 'Brez';
+?>

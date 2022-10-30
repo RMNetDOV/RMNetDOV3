@@ -1,0 +1,13 @@
+<?php
+$wb['server_id_txt'] = 'Strežnik';
+$wb['priority_txt'] = 'Prednost';
+$wb['policy_id_txt'] = 'Pravilnik';
+$wb['email_txt'] = 'E-pošta (vzorec)';
+$wb['fullname_txt'] = 'Ime';
+$wb['local_txt'] = 'Lokalno';
+$wb['email_error_notempty'] = 'E-poštni naslov ne sme biti prazen.';
+$wb['fullname_error_notempty'] = 'Ime ne sme biti prazno.';
+$wb['10 - najvišje'] = '10 - najvišje';
+$wb['5 - medium'] = '5 - srednje';
+$wb['1 - lowest'] = '1 - najnižji';
+$wb['inherit_policy'] = '- Podeduj nastavitev domene -';

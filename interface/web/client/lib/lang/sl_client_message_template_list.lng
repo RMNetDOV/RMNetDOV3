@@ -1,0 +1,5 @@
+<?php
+$wb['list_head_txt'] = 'E-poštne predloge';
+$wb['template_type_txt'] = 'Sporočilo za';
+$wb['template_name_txt'] = 'Ime predloge';
+?>

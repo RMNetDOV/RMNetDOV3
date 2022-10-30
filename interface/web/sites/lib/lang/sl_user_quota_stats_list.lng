@@ -1,0 +1,10 @@
+<?php
+$wb['list_head_txt'] = 'Kvota trdega diska spletnega mesta';
+$wb['domain_txt'] = 'Domena / Spletna stran';
+$wb['system_user_txt'] = 'Uporabnik Linux';
+$wb['used_txt'] = 'Uporabljen prostor';
+$wb['hard_txt'] = 'Trda omejitev';
+$wb['soft_txt'] = 'Mehka omejitev';
+$wb['files_txt'] = 'Posamezne datoteke';
+$wb['percentage_txt'] = 'Uporabljen %';
+?>

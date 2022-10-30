@@ -1,0 +1,6 @@
+<?php
+$wb['list_head_txt'] = 'Izvoz jezikovnih datotek';
+$wb['language_select_txt'] = 'Izberi jezik';
+$wb['btn_save_txt'] = 'Izvozi izbrani niz jezikovnih datotek';
+$wb['btn_cancel_txt'] = 'Nazaj';
+?>

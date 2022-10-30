@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'Domena XMPP';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['domain_txt'] = 'Domena';
+$wb['add_new_record_txt'] = 'Dodaj novo domeno';
+$wb['active_txt'] = 'Aktivno';
+?>

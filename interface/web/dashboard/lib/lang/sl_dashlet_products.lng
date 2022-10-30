@@ -1,0 +1,9 @@
+<?php
+$wb['products_txt'] = 'Moji izdelki';
+$wb['name_txt'] = 'Ime';
+$wb['price_txt'] = 'Cena';
+$wb['next_payment_date_txt'] = 'Naslednji račun';
+$wb['no_products_txt'] = 'Ni izdelkov.';
+$wb['edit_txt'] = 'Uredi';
+$wb['cancellation_date_txt'] = 'Preklicano do';
+?>

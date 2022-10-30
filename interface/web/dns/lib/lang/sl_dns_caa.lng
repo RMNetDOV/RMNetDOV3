@@ -1,0 +1,19 @@
+<?php
+$wb['ca_list_txt'] = 'Orga za potrjevanje';
+$wb['ca_domain_txt'] = 'Domena';
+$wb['ca_hostname_txt'] = 'Dodatna imena gostiteljev';
+$wb['ca_hostname_note_txt'] = '(Seznam, ločen z vejicami – prazen za vsa imena gostiteljev)';
+$wb['ca_options_txt'] = 'Dodatne možnosti';
+$wb['ca_options_note_txt'] = 'zahteva CA (Seznam ločen z vejicami)';
+$wb['ca_wildcard_txt'] = 'Uporabi nadomestni SSL';
+$wb['ca_critical_txt'] = 'Strogo preverjanje'; //Za prihodnjo uporabo. CAA trenutno ne prepoznajo drugih vrednosti zastavic, kot je opisano v RFC 6844
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = 'Aktivno';
+$wb['select_txt'] = 'Izberi overitelja potrdil';
+$wb['no_zone_perm'] = 'Nimate dovoljenja za dodajanje zapisa v to območje DNS.';
+$wb['limit_dns_record_txt'] = 'Najv. doseženo je število zapisov DNS za vaš račun.';
+$wb['ca_error_txt'] = 'Izbran ni noben overitelj potrdil';
+$wb['caa_exists_error'] = 'CAA zapis že obstaja';
+$wb['ca_option_error'] = 'Neveljavna oblika za dodatne možnosti; MOŽNOST=VREDNOST';
+$wb['ttl_range_error'] = 'Min. Čas TTL je 60 sekund.';
+?>

@@ -1,0 +1,6 @@
+<?php
+$wb['list_head_txt'] = 'Predloga čarovnika za DNS';
+$wb['visible_txt'] = 'Viden';
+$wb['name_txt'] = 'Ime';
+$wb['add_new_record_txt'] = 'Dodaj nov zapis';
+?>

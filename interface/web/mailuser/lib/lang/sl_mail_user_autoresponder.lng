@@ -1,0 +1,13 @@
+<?php
+$wb['mailbox_autoresponder_txt'] = 'Samodejni odzivnik';
+$wb['autoresponder_subject'] = 'Odgovor o odsotnosti';
+$wb['autoresponder_text_txt'] = 'Besedilo';
+$wb['autoresponder_txt'] = 'Aktivno';
+$wb['autoresponder_start_date_txt'] = 'Začetek';
+$wb['autoresponder_start_date_isfuture'] = 'Začetni datum ne more biti v preteklosti.';
+$wb['autoresponder_end_date_txt'] = 'Konec do';
+$wb['autoresponder_end_date_isgreater'] = 'Končni datum mora biti nastavljen in mora biti poznejši od začetnega datuma.';
+$wb['autoresponder_active'] = 'Omogoči samodejni odzivnik';
+$wb['now_txt']='Zdaj';
+$wb['autoresponder_subject_txt'] = 'Zadeva';
+?>

@@ -1,0 +1,14 @@
+<?php
+$wb['web_folder_id_txt'] = 'Mapa';
+$wb['username_txt'] = 'Uporabniško ime';
+$wb['password_txt'] = 'Geslo';
+$wb['active_txt'] = 'Aktivno';
+$wb['folder_error_empty'] = 'Ni izbrana nobena spletna mapa.';
+$wb['password_strength_txt'] = 'Moč gesla';
+$wb['generate_password_txt'] = 'Ustvari geslo';
+$wb['repeat_password_txt'] = 'Ponovi geslo';
+$wb['password_mismatch_txt'] = 'Gesli se ne ujemata.';
+$wb['password_match_txt'] = 'Gesli se ujemata.';
+$wb['no_folder_perm'] = 'Nimate dovoljenja za to mapo.';
+$wb['error_user_exists_already_txt'] = 'Za tega uporabnika že obstaja zapis.';
+?>

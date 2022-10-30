@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Urejevalnik jezikovnih datotek';
+$wb['language_select_txt'] = 'Izberi jezik';
+$wb['module_txt'] = 'Modul';
+$wb['lang_file_txt'] = 'Jezikovna datoteka';
+$wb['btn_save_txt'] = 'Shrani';
+$wb['btn_cancel_txt'] = 'Nazaj';
+?>

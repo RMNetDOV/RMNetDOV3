@@ -1,0 +1,18 @@
+<?php
+$wb['list_head_txt'] = 'Poddomene';
+$wb['active_txt'] = 'Aktivno';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['parent_domain_id_txt'] = 'Spletna stran';
+$wb['domain_txt'] = 'Poddomena';
+$wb['add_new_subdomain_txt'] = 'Dodaj novo poddomeno';
+$wb['add_new_aliasdomain_txt'] = 'Dodaj novo vzdevek';
+$wb['domain_error_empty'] = 'Domena je prazna.';
+$wb['domain_error_unique'] = 'Domena mora biti edinstvena.';
+$wb['domain_error_regex'] = 'Ime domene ni veljavno.';
+$wb['domain_error_acme_invalid'] = 'Ime domene acme.invalid ni dovoljeno.';
+$wb['no_redirect_txt'] = 'Brez preusmeritve';
+$wb['no_flag_txt'] = 'Brez zastavice';
+$wb['none_txt'] = 'Brez';
+$wb['aliasdomain_list_head_txt'] = 'Vzdevki domen';
+$wb['subdomain_list_head_txt'] = 'Poddomene';
+?>

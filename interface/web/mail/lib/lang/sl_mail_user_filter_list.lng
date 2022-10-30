@@ -1,0 +1,7 @@
+<?php
+$wb['rulename_txt'] = 'Ime';
+$wb['add_new_record_txt'] = 'Dodaj nov filter';
+$wb['page_txt'] = 'Stran';
+$wb['page_of_txt'] = 'od';
+$wb['delete_confirmation'] = 'Ali res želite izbrisati poštni filter?';
+?>

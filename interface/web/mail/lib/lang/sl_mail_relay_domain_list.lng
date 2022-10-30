@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Posredovalne domene';
+$wb['active_txt'] = 'Aktivno';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['domain_txt'] = 'Domena';
+$wb['add_new_record_txt'] = 'Dodaj novo domeno releja';
+$wb['access_txt'] = 'dostop';
+?>

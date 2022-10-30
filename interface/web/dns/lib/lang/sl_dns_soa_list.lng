@@ -1,0 +1,11 @@
+<?php
+$wb['list_head_txt'] = 'DNS-območja';
+$wb['active_txt'] = 'Aktivno';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['origin_txt'] = 'Območje';
+$wb['ns_txt'] = 'NS';
+$wb['mbox_txt'] = 'E-pošta';
+$wb['add_new_record_wizard_txt'] = 'Dodaj novo območje DNS s čarovnikom';
+$wb['add_new_record_txt'] = 'Ročno dodajte novo območje DNS';
+$wb['import_zone_file_txt'] = 'Uvozi consko datoteko';
+?>

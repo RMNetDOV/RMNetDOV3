@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'Vnos zgodovine dnevnika podatkov';
+$wb['success_txt'] = 'Razveljavitev uspešna';
+$wb['error_txt'] = 'Napaka med razveljavitvijo: zapis ne obstaja več';
+$wb['error_undelete_txt'] = 'Napaka med razveljavitvijo izbrisa: Zapis s primarnim ID-jem že obstaja.';
+$wb['btn_cancel_txt'] = 'Nazaj';
+?>

@@ -1,0 +1,20 @@
+<?php
+$wb['page_head_txt'] = 'Pošlji e-poštno sporočilo strankam in prodajalcem';
+$wb['btn_send_txt'] = 'Pošlji e-pošto';
+$wb['btn_cancel_txt'] = 'Prekliči';
+$wb['sender_txt'] = 'E-poštni naslov pošiljatelja';
+$wb['subject_txt'] = 'Zadeva';
+$wb['message_txt'] = 'Sporočilo';
+$wb['form_legend_client_txt'] = 'Pošlji e-poštno sporočilo strankam.';
+$wb['form_legend_admin_txt'] = 'Pošlji e-poštno sporočilo strankam in prodajalcem.';
+$wb['sender_invalid_error'] = 'E-pošta pošiljatelja ni veljavna.';
+$wb['subject_invalid_error'] = 'Zadeva je prazna.';
+$wb['message_invalid_error'] = 'Sporočilo je prazno.';
+$wb['email_sent_to_txt'] = 'E-poštno sporočilo je bilo poslano na:';
+$wb['recipient_txt'] = 'Prejemnik';
+$wb['all_clients_resellers_txt'] = 'Vse stranke in preprodajalci';
+$wb['all_clients_txt'] = 'Vsi odjemalci';
+$wb['variables_txt'] = 'Spremenljivke:';
+$wb['gender_m_txt'] = 'Gospod.';
+$wb['gender_f_txt'] = 'Gospa';
+?>

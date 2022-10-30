@@ -1,0 +1,27 @@
+<?php
+$wb['i'] = 'Vstavi';
+$wb['u'] = 'Posodobi';
+$wb['d'] = 'Izbriši';
+$wb['list_head_txt'] = 'Vnos zgodovine dnevnika podatkov';
+$wb['id_txt'] = 'ID';
+$wb['timestamp_txt'] = 'Časovni žig';
+$wb['table_txt'] = 'Tabela';
+$wb['action_txt'] = 'Dejanje';
+$wb['session_id_txt'] = 'ID seje';
+$wb['fields_txt'] = 'Polja';
+$wb['fields_inserted_txt'] = 'Vstavljena polja';
+$wb['fields_updated_txt'] = 'Posodobljena polja';
+$wb['fields_deleted_txt'] = 'Izbrisana polja';
+$wb['no_changes_txt'] = 'Ni sprememb (ponovna sinhronizacija)';
+$wb['is_diff_txt'] = 'Razlike so označene';
+$wb['is_diff_inserts_txt'] = 'Vstavki';
+$wb['is_diff_deletes_txt'] = 'Izbrisi';
+$wb['field_txt'] = 'Polje';
+$wb['value_txt'] = 'Vrednost';
+$wb['old_txt'] = 'Staro';
+$wb['new_txt'] = 'Novo';
+$wb['btn_cancel_txt'] = 'Nazaj';
+$wb['undo_txt'] = 'Razveljavi dejanje';
+$wb['undo_confirmation_txt'] = 'Ali res želite razveljaviti to dejanje?';
+$wb['username_txt'] = 'Uporabniško ime';
+?>

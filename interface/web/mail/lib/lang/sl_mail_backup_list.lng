@@ -1,0 +1,16 @@
+<?php
+$wb['list_head_txt'] = 'Obstoječe varnostne kopije';
+$wb['date_txt'] = 'Datum';
+$wb['backup_type_txt'] = 'Vrsta';
+$wb['filename_txt'] = 'Varnostna datoteka';
+$wb['restore_backup_txt'] = 'Obnovi';
+$wb['restore_info_txt'] = 'Obnovitev varnostne kopije se je začela. To dejanje traja nekaj minut, da se dokonča.';
+$wb['restore_confirm_txt'] = 'Obnovitev lahko prepiše obstoječe datoteke v vašem nabiralniku. Ali res želite obnoviti to varnostno kopijo?';
+$wb['download_pending_txt'] = 'Obstaja že čakajoče opravilo prenosa varnostne kopije.';
+$wb['restore_pending_txt'] = 'Obstaja že čakajoče opravilo obnovitve varnostne kopije.';
+$wb['delete_backup_txt'] = 'Izbriši varnostno kopijo';
+$wb['delete_info_txt'] = 'Brisanje varnostne kopije se je začelo. To dejanje traja nekaj minut, da se dokonča.';
+$wb['delete_confirm_txt'] = 'Res želite izbrisati to varnostno kopijo?';
+$wb['delete_pending_txt'] = 'Obstaja že čakajoče opravilo brisanja varnostne kopije.';
+$wb['filesize_txt'] = 'Velikost datoteke';
+?>

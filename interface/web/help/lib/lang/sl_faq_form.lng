@@ -1,0 +1,6 @@
+<?php
+$wb['faq_faq_txt'] = 'Pogosto zastavljena vprašanja';
+$wb['faq_question_txt'] = 'Vprašanje';
+$wb['faq_answer_txt'] = 'Odgovor';
+$wb['faq_section_txt'] = 'Razdelek';
+?>

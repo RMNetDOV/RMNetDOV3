@@ -1,0 +1,10 @@
+<?php
+$wb['confirm_action_txt'] = 'Potrdi dejanje';
+$wb['delete_explanation'] = 'To dejanje bo izbrisalo naslednje število zapisov, povezanih s tem odjemalcem';
+$wb['btn_save_txt'] = 'Izbriši odjemalca';
+$wb['btn_cancel_txt'] = 'Prekliči brez brisanja odjemalca';
+$wb['confirm_client_delete_txt'] = 'Ali ste prepričani, da želite izbrisati tega odjemalca?';
+$wb['list_head_txt'] = 'Izbriši odjemalca';
+$wb['table_txt'] = 'Tabela';
+$wb['data_txt'] = 'Podatki';
+?>

@@ -1,0 +1,16 @@
+<?php
+$wb['email_txt'] = 'E-pošta';
+$wb['destination_txt'] = 'Ciljna e-pošta';
+$wb['active_txt'] = 'Aktivno';
+$wb['limit_mailforward_txt'] = 'Najv. doseženo je število posredovalcev e-pošte za vaš račun.';
+$wb['duplicate_mailbox_txt'] = 'Že obstaja nabiralnik s tem e-poštnim naslovom';
+$wb['domain_txt'] = 'Domena';
+$wb['source_txt'] = 'Izvorna e-pošta';
+$wb['destination_error_empty'] = 'Cilj ne sme biti prazen.';
+$wb['destination_error_isemail'] = 'Cilj vsebuje vsaj en neveljaven e-poštni naslov.';
+$wb['email_error_isemail'] = 'Prosimo, vnesite veljaven e-poštni naslov.';
+$wb['email_error_unique'] = 'Podvojen e-poštni naslov.';
+$wb['send_as_txt'] = 'Pošlji kot';
+$wb['send_as_exp'] = 'Dovoli cilju pošiljanje pošte z uporabo tega naslova kot izvora (če je cilj notranji)';
+$wb['greylisting_txt'] = 'Omogoči sivi seznam';
+?>

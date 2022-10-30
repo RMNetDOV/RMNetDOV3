@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Kvota nabiralnika';
+$wb['quota_txt'] = 'Kvota';
+$wb['name_txt'] = 'Ime';
+$wb['email_txt'] = 'E-poštni naslov';
+$wb['used_txt'] = 'Uporabljen prostor';
+$wb['percentage_txt'] = 'Uporabljen %';
+?>

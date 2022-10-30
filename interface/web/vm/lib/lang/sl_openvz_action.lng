@@ -1,0 +1,16 @@
+<?php
+$wb['head_txt'] = 'Dejanja navideznega strežnika za VM:';
+$wb['start_txt'] = 'Zaženi virtualni strežnik';
+$wb['stop_txt'] = 'Ustavi virtualni strežnik';
+$wb['restart_txt'] = 'Ponovni zagon virtualnega strežnika';
+$wb['ostemplate_txt'] = 'Ustvari predlogo OST';
+$wb['ostemplate_desc_txt'] = '(primer: debian-6.0-i386-custom)';
+$wb['btn_save_txt'] = 'Izvedi izbrano dejanje';
+$wb['btn_cancel_txt'] = 'Prekliči';
+$wb['start_exec_txt'] = 'Ukaz za zagon je bil poslan gostiteljskemu strežniku VM. Lahko traja minuto, preden se VM zažene.';
+$wb['stop_exec_txt'] = 'Ukaz za ustavitev je bil poslan gostiteljskemu strežniku VM. Lahko traja minuto, dokler se VM ne ustavi.';
+$wb['restart_exec_txt'] = 'Ukaz za ponovni zagon je bil poslan gostiteljskemu strežniku VM. Lahko traja minuto, dokler se VM znova ne zažene.';
+$wb['ostemplate_name_error'] = 'Ime šablone OST vsebuje nedovoljene znake.';
+$wb['ostemplate_name_unique_error'] = 'Že obstaja šablona OST s tem imenom.';
+$wb['ostemplate_exec_txt'] = 'Ukaz za ustvarjanje šablone OST je bil poslan gostiteljskemu strežniku. Trajalo bo nekaj minut, preden bo predloga OST ustvarjena.';
+?>

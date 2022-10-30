@@ -1,0 +1,9 @@
+<?php
+$wb['server_id_txt'] = 'Gostiteljski strežnik';
+$wb['ip_address_txt'] = 'IP naslov';
+$wb['vm_id_txt'] = 'Navidezni strežnik';
+$wb['reserved_txt'] = 'Rezervirano';
+$wb['ip_error_wrong'] = 'Prosimo, vnesite veljaven naslov IPv4.';
+$wb['ip_error_unique'] = 'Ta naslov IP že obstaja.';
+$wb['IP address'] = 'IP naslov';
+?>

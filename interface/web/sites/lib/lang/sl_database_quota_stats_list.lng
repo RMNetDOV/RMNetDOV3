@@ -1,0 +1,9 @@
+<?php
+$wb['database_txt'] = 'Baza podatkov';
+$wb['server_name_txt'] = 'Strežnik';
+$wb['client_txt'] = 'Odjemalec';
+$wb['used_txt'] = 'Uporabljen prostor';
+$wb['quota_txt'] = 'Kvota';
+$wb['percentage_txt'] = 'Uporabljeno v %';
+$wb['list_head_txt'] = 'Kvota zbirke podatkov';
+?>

@@ -1,0 +1,10 @@
+<?php
+$wb['list_head_txt'] = 'Navidezni strežnik';
+$wb['active_txt'] = 'Aktivno';
+$wb['server_id_txt'] = 'Gostiteljski strežnik';
+$wb['ostemplate_id_txt'] = 'OSTtemplate';
+$wb['template_id_txt'] = 'Predloga';
+$wb['hostname_txt'] = 'Ime gostitelja';
+$wb['ip_address_txt'] = 'IP naslov';
+$wb['veid_txt'] = 'VEID';
+?>

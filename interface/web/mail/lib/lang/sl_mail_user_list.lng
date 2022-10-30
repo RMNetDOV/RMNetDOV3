@@ -1,0 +1,13 @@
+<?php
+$wb['list_head_txt'] = 'Nabiralnik';
+$wb['email_txt'] = 'E-pošta';
+$wb['autoresponder_txt'] = 'Samodejni odzivnik';
+$wb['add_new_record_txt'] = 'Dodaj nov nabiralnik';
+$wb['name_txt'] = 'Pravo ime';
+$wb['login_txt'] = 'Prijava';
+$wb['postfix_txt'] = 'Prejemanje';
+$wb['disablesmtp_txt'] = 'SMTP (pošiljanje)';
+$wb['disabledeliver_txt'] = 'Prejeto';
+$wb['disableimap_txt'] = 'IMAP';
+$wb['disablepop3_txt'] = 'POP3';
+?>

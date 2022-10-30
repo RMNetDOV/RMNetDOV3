@@ -1,0 +1,12 @@
+<?php
+$wb['page_head_txt'] = 'Nastavitve nabiralnika';
+$wb['page_desc_txt'] = 'Tukaj lahko uredite nastavitve za e-poštni račun.';
+$wb['email_txt'] = 'E-poštni naslov';
+$wb['login_txt'] = 'Prijava';
+$wb['server_address_txt'] = 'Naslov poštnega strežnika';
+$wb['cc_txt'] = 'Pošlji kopijo (CC)';
+$wb['quota_txt'] = 'Velikost nabiralnika';
+$wb['unlimited_txt'] = 'Neomejeno';
+$wb['mb_txt'] = 'MB';
+$wb['none_txt'] = 'Brez';
+?>

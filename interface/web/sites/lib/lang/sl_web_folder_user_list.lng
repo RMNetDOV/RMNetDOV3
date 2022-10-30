@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'Uporabnik mape';
+$wb['active_txt'] = 'Aktivno';
+$wb['web_folder_id_txt'] = 'Mapa';
+$wb['username_txt'] = 'Uporabniško ime';
+$wb['add_new_record_txt'] = 'Dodaj novega uporabnika mape';
+?>

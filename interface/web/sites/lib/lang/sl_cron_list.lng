@@ -1,0 +1,13 @@
+<?php
+$wb['list_head_txt'] = 'Cron opravila';
+$wb['active_txt'] = 'Aktivno';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['run_min_txt'] = 'Minuta';
+$wb['run_hour_txt'] = 'Ura';
+$wb['run_mday_txt'] = 'Dan v mesecu';
+$wb['run_month_txt'] = 'Mesec';
+$wb['run_wday_txt'] = 'Dan v tednu';
+$wb['command_txt'] = 'Ukaz';
+$wb['add_new_cron_txt'] = 'Dodaj novo opravilo Cron';
+$wb['parent_domain_id_txt'] = 'Spletna stran';
+?>

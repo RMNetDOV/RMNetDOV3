@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'Pridobi e-pošto z zunanjih strežnikov POP3 / IMAP';
+$wb['active_txt'] = 'Aktivno';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['source_server_txt'] = 'Zunanji strežnik';
+$wb['source_username_txt'] = 'Uporabniško ime';
+$wb['destination_txt'] = 'Cilj';
+$wb['add_new_record_txt'] = 'Dodaj nov račun';
+?>

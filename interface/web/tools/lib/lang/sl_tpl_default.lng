@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'Privzete nastavitve teme';
+$wb['list_desc_txt'] = 'Spremeni posebne možnosti privzete teme';
+$wb['no_settings_txt'] = 'Za privzeto temo ni nastavitev.';
+$wb['btn_start_txt'] = 'Shrani';
+$wb['btn_cancel_txt'] = 'Nazaj';
+?>

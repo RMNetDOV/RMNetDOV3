@@ -1,0 +1,20 @@
+<?php
+$wb['getmail_config_dir_txt'] = 'Getmail Config Pot';
+$wb['ip_address_txt'] = 'IP-naslov';
+$wb['netmask_txt'] = 'Omrežna maska';
+$wb['gateway_txt'] = 'Prehod';
+$wb['hostname_txt'] = 'Ime gostitelja';
+$wb['nameservers_txt'] = 'Imenski strežniki';
+$wb['module_txt'] = 'Strežniški modul';
+$wb['maildir_path_txt'] = 'Pot Maildir';
+$wb['homedir_path_txt'] = 'Pot Homedir';
+$wb['mailuser_uid_txt'] = 'UID poštnega uporabnika';
+$wb['mailuser_gid_txt'] = 'GID uporabnika pošte';
+$wb['mailuser_name_txt'] = 'Ime poštnega uporabnika';
+$wb['mailuser_group_txt'] = 'Skupina poštnih uporabnikov';
+$wb['relayhost_txt'] = 'Relayhost';
+$wb['relayhost_user_txt'] = 'Uporabnik Relayhost';
+$wb['relayhost_password_txt'] = 'Geslo gostitelja relejnika';
+$wb['mailbox_size_limit_txt'] = 'Omejitev velikosti nabiralnika';
+$wb['message_size_limit_txt'] = 'Omejitev velikosti sporočila';
+?>

@@ -1,0 +1,9 @@
+<?php
+$wb['server_id_txt'] = 'Strežnik';
+$wb['type_txt'] = 'Filter';
+$wb['pattern_txt'] = 'Regexp. Vzorec';
+$wb['data_txt'] = 'Podatki';
+$wb['action_txt'] = 'Dejanje';
+$wb['active_txt'] = 'Aktivno';
+$wb['pattern_error_empty'] = 'Vzorec je prazen.';
+?>

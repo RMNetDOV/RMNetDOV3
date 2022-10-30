@@ -1,0 +1,7 @@
+<?php
+$wb['databasequota_txt'] = 'Kvota zbirke podatkov';
+$wb['database_txt'] = 'Ime baze podatkov';
+$wb['used_txt'] = 'Uporabljen prostor';
+$wb['quota_txt'] = 'Kvota';
+$wb['no_database_accounts_txt'] = 'Ni podatkovnih zbirk.';
+?>

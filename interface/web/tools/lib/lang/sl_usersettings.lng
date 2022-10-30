@@ -1,0 +1,19 @@
+<?php
+$wb['password_txt'] = 'Geslo';
+$wb['password_strength_txt'] = 'Moč gesla';
+$wb['language_txt'] = 'Jezik';
+$wb['password_mismatch'] = 'Geslo v drugem polju za geslo se ne ujema s prvim geslom.';
+$wb['Form to edit the user password and language.'] = 'Obrazec za urejanje uporabniškega gesla in jezika';
+$wb['Settings'] = 'Nastavitve';
+$wb['generate_password_txt'] = 'Ustvari geslo';
+$wb['repeat_password_txt'] = 'Ponovi geslo';
+$wb['password_mismatch_txt'] = 'Gesli se ne ujemata.';
+$wb['password_match_txt'] = 'Gesli se ujemata.';
+$wb['language_txt'] = 'Jezik';
+$wb['startmodule_txt'] = 'Začetni modul';
+$wb['app_theme_txt'] = 'Oblikovanje';
+$wb['startmodule_empty'] = 'Začetni modul je prazen.';
+$wb['startmodule_regex'] = 'Neveljavni znaki v Startmodule.';
+$wb['app_theme_empty'] = 'Tema aplikacije je prazna.';
+$wb['app_theme_regex'] = 'Neveljavni znaki v temi aplikacije.';
+?>

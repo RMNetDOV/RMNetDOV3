@@ -1,0 +1,15 @@
+<?php
+
+$wb['server_id_txt'] = 'Strežnik';
+$wb['multiport_txt'] = 'Več vrat';
+$wb['singleport_txt'] = 'Ena vrata';
+$wb['protocol_txt'] = 'Protokol';
+$wb['table_txt'] = 'Tabela';
+$wb['target_txt'] = 'Cilj';
+$wb['state_txt'] = 'Stanje';
+$wb['destination_ip_txt'] = 'Ciljni naslov';
+$wb['source_ip_txt'] = 'Izvorni naslov';
+$wb['active_txt'] = 'Aktivno';
+$wb['iptables_error_unique'] = 'Za ta strežnik že obstaja zapis požarnega zidu.';
+
+?>

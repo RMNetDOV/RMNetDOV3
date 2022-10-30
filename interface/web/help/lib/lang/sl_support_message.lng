@@ -1,0 +1,16 @@
+<?php
+$wb['recipient_id_txt'] = 'ID prejemnika';
+$wb['sender_id_txt'] = 'ID pošiljatelja';
+$wb['subject_txt'] = 'Zadeva';
+$wb['message_txt'] = 'Sporočilo';
+$wb['tstamp_txt'] = 'Časovni žig';
+$wb['reply_txt'] = 'Odgovori';
+$wb['date_txt'] = 'Datum';
+$wb['support_request_subject_txt'] = 'Zahteva za podporo';
+$wb['support_request_txt'] = 'Prejeli ste zahtevo za podporo. Prosimo, ne odgovarjajte na to e-pošto, ampak obdelajte zahtevo za podporo znotraj RM-Net - DOV CP.';
+$wb['answer_to_support_request_txt'] = 'Prejeli ste odgovor na svojo zahtevo za podporo. Prosimo, ne odgovarjajte na to e-pošto, ampak obdelajte sporočilo znotraj RM-Net - DOV CP.';
+$wb['answer_to_support_request_sent_txt'] = 'Vaš odgovor na zahtevo za podporo je bil poslan. Prosim, ne odgovarjajte na to e-pošto.';
+$wb['support_request_sent_txt'] = 'Vaša zahteva za podporo je bila poslana. Prosim, ne odgovarjajte na to e-pošto.';
+$wb['recipient_or_sender_email_address_not_valid_txt'] = 'Sporočila ni bilo mogoče poslati, ker e-poštni naslov prejemnika in/ali pošiljatelja ni veljaven.';
+$wb['subject_is_empty'] = 'Zadeva ne sme biti prazna.';
+?>

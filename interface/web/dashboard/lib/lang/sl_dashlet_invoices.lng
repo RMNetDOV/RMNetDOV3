@@ -1,0 +1,18 @@
+<?php
+$wb['invoices_txt'] = 'Računi';
+$wb['invoice_no_txt'] = 'Št. računa';
+$wb['amount_txt'] = 'Znesek';
+$wb['date_txt'] = 'Datum';
+$wb['invoice_status_txt'] = 'Stanje';
+$wb['no_invoices_txt'] = 'Računi niso na voljo.';
+$wb['paid_txt'] = 'Plačano';
+$wb['unpaid_txt'] = 'Neplačano';
+$wb['paynow_txt'] = 'plačaj zdaj';
+$wb['proforma_txt'] = 'Proforma';
+$wb['refunded_txt'] = 'Povrnjeno';
+$wb['not_refunded_txt'] = 'Brez povračila';
+$wb['invoice_type_invoice_txt'] = 'Račun';
+$wb['invoice_type_proforma_txt'] = 'Predračun';
+$wb['invoice_type_refund_txt'] = 'Vračilo';
+$wb['invoice_type_reminder_txt'] = 'Opomin';
+?>

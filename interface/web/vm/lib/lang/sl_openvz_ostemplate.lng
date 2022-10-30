@@ -1,0 +1,11 @@
+<?php
+$wb['template_name_txt'] = 'Ime predloge';
+$wb['template_file_txt'] = 'Ime datoteke predloge';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['allservers_txt'] = 'Obstaja na vseh strežnikih';
+$wb['active_txt'] = 'Aktivno';
+$wb['description_txt'] = 'Opis';
+$wb['template_name_error_empty'] = 'Ime predloge je prazno.';
+$wb['template_file_error_empty'] = 'Ime datoteke predloge je prazno.';
+$wb['Template'] = 'Predloga';
+?>

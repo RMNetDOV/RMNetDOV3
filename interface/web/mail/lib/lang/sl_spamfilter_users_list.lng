@@ -1,0 +1,10 @@
+<?php
+$wb['list_head_txt'] = 'Uporabniki filtra za neželeno pošto';
+$wb['local_txt'] = 'Lokalno';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['priority_txt'] = 'Prednost';
+$wb['policy_id_txt'] = 'Pravilnik';
+$wb['fullname_txt'] = 'Ime';
+$wb['email_txt'] = 'E-pošta';
+$wb['add_new_record_txt'] = 'Dodaj uporabnika filtra neželene pošte';
+?>

@@ -1,0 +1,16 @@
+<?php
+$wb['Directive Snippets'] = 'Izrezki direktiv';
+$wb['name_txt'] = 'Ime izrezka';
+$wb['type_txt'] = 'Tip';
+$wb['snippet_txt'] = 'Izrezek';
+$wb['active_txt'] = 'Aktivno';
+$wb['directive_snippets_name_empty'] = 'Prosimo, določite ime za delček.';
+$wb['directive_snippets_name_error_unique'] = 'Že obstaja delček direktive s tem imenom.';
+$wb['variables_txt'] = 'Spremenljivke';
+$wb['customer_viewable_txt'] = 'Stranka vidna';
+$wb['required_php_snippets_txt'] = 'Zahtevan izrezek PHP';
+$wb['update_sites_txt'] = 'Posodobi spletna mesta s tem izrezkom';
+$wb['error_hide_snippet_active_sites'] = 'Tega delčka ne morete skriti pred strankami, saj ga trenutno uporabljajo obstoječa spletna mesta.';
+$wb['error_disable_snippet_active_sites'] = 'Tega delčka ne morete onemogočiti, saj ga trenutno uporabljajo obstoječa spletna mesta.';
+$wb['error_delete_snippet_active_sites'] = 'Tega delčka ne morete izbrisati, saj ga trenutno uporabljajo obstoječa spletna mesta.';
+?>

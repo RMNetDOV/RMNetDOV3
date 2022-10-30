@@ -1,0 +1,30 @@
+<?php
+$wb['data_txt'] = 'SPF-zapis';
+$wb['name_txt'] = 'Ime gostitelja';
+$wb['spf_mechanism_txt'] = 'Mehanizem SPF';
+$wb['spf_mechanism_pass_txt'] = 'Prepustnica - dovoli pošto drugih pošiljateljev';
+$wb['spf_mechanism_fail_txt'] = 'Neuspeh - zavrnitev pošte drugih pošiljateljev';
+$wb['spf_mechanism_softfail_txt'] = 'SoftFail - dovoli pošto od drugih pošiljateljev, vendar označi e-pošto';
+$wb['spf_mechanism_neutral_txt'] = 'Nevtralno - ne naredi ničesar';
+$wb['spf_mx_txt'] = 'Dovoli strežnikom, navedenim kot MX, pošiljanje e-pošte za to domeno';
+$wb['spf_a_txt'] = 'Dovoli trenutnemu naslovu IP domene pošiljanje e-pošte za to domeno';
+$wb['spf_ip_txt'] = 'Dodatni naslovi IP v formatu CIDR, ki dostavljajo ali posredujejo pošto za to domeno';
+$wb['spf_ip_note_txt'] = '(IP-je ločite s presledki)';
+$wb['spf_invalid_ip_txt'] = 'Neveljaven IP-naslov';
+$wb['spf_hostname_txt'] = 'Katero koli drugo ime gostitelja strežnika, ki lahko dostavlja ali posreduje pošto za to domeno';
+$wb['spf_hostname_note_txt'] = '(Imena gostiteljev ločite s presledki)';
+$wb['spf_invalid_hostname_txt'] = 'Neveljavno ime gostitelja';
+$wb['spf_domain_txt'] = 'Vse domene, ki lahko dostavljajo ali posredujejo pošto za to domeno';
+$wb['spf_domain_note_txt'] = '(Domene ločite s presledki)';
+$wb['spf_invalid_domain_txt'] = 'Neveljavno ime domene';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = 'Aktivno';
+$wb['record_exists_txt'] = 'DNS-zapis že obstaja';
+$wb['spf_record_exists_txt'] = 'SPF-zapis že obstaja za ime gostitelja "{hostname}". Ali želite <a href="#" data-load-content="dns/dns_spf_edit.php?id={existing_record_id}">urediti obstoječi zapis</a>?';
+$wb['spf_record_exists_multiple_txt'] = 'Za ime gostitelja »{hostname}« obstaja več zapisov SPF. Zaradi tega bodo prejemniki vašo pošto zavrnili! Izbrišite ali spojite podvojene obstoječe zapise in poskusite znova.';
+$wb['limit_dns_record_txt'] = 'Najv. doseženo je število zapisov DNS za vaš račun.';
+$wb['no_zone_perm'] = 'Nimate dovoljenja za dodajanje zapisa v to območje DNS.';
+$wb['ttl_range_error'] = 'Min. Čas TTL je 60 sekund.';
+$wb['name_error_regex'] = 'Ime gostitelja je v napačni obliki.';
+$wb['btn_edit_as_txt_record_txt'] = 'Uredi kot zapis TXT';
+?>

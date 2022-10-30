@@ -1,0 +1,14 @@
+<?php
+$wb['server_ip_map_title'] = 'Preslikava naslova IPv4';
+$wb['server_ip_map_desc'] = 'Obrazec za preslikavo naslovov IPv4 za spletni strežnik';
+$wb['server_id_txt'] = 'Prepiši na strežnik';
+$wb['source_txt'] = 'Izvorni IP';
+$wb['destination_txt'] = 'Ciljni IP';
+$wb['active_txt'] = 'Aktivno';
+$wb['ip_error_wrong'] = 'Ciljni naslov IP ni veljaven';
+$wb['destination_ip_empty'] = 'Ciljni IP je prazen.';
+$wb['source_ip_empty'] = 'Izvorni IP je prazen.';
+$wb['server_empty_error'] = 'Strežnik je prazen.';
+$wb['duplicate_mapping_error'] = 'Preslikava že obstaja.';
+$wb['ip_mapping_error'] = 'Izvorni IP ne more biti IP strežnika za prepisovanje';
+?>

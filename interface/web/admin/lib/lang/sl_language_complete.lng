@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'Združi jezik';
+$wb['list_desc_txt'] = 'Združi izbrano jezikovno datoteko z angleško glavno jezikovno datoteko. <br />To doda manjkajoče nize iz angleških glavnih jezikovnih datotek izbranemu jeziku.';
+$wb['language_select_txt'] = 'Izberi jezik';
+$wb['btn_save_txt'] = 'Združi datoteke zdaj';
+$wb['btn_cancel_txt'] = 'Nazaj';
+?>

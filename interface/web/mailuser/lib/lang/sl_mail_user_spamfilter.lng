@@ -1,0 +1,7 @@
+<?php
+$wb['mailbox_spamfilter_txt'] = 'Filter neželene pošte';
+$wb['spamfilter_txt'] = 'Filter za neželeno pošto';
+$wb['email_txt'] = 'E-pošta';
+$wb['inherit_policy'] = '- Podeduj nastavitev domene -';
+$wb['policy_txt'] = 'Pravilnik';
+?>

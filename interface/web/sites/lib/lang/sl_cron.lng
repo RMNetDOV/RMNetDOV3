@@ -1,0 +1,26 @@
+<?php
+$wb['server_id_txt'] = 'Strežnik';
+$wb['parent_domain_id_txt'] = 'Nadrejeno spletno mesto';
+$wb['active_txt'] = 'Aktivno';
+$wb['client_txt'] = 'Odjemalec';
+$wb['run_min_txt'] = 'Minute';
+$wb['run_hour_txt'] = 'Ure';
+$wb['run_mday_txt'] = 'Dnevi v mesecu';
+$wb['run_month_txt'] = 'Meseci';
+$wb['run_wday_txt'] = 'Dnevi v tednu';
+$wb['command_txt'] = 'Ukaz za zagon (ukazi se izvajajo prek sh, url-ji prek wget)';
+$wb['limit_cron_txt'] = 'Doseženo je bilo največje dovoljeno število opravil cron.';
+$wb['limit_cron_frequency_txt'] = 'Frekvenca opravil cron presega dovoljeno mejo.';
+$wb['run_min_error_format'] = 'Neveljavna oblika za minute.';
+$wb['run_hour_error_format'] = 'Neveljavna oblika ur.';
+$wb['run_mday_error_format'] = 'Neveljavna oblika za dni v mesecu.';
+$wb['run_month_error_format'] = 'Neveljavna oblika za mesece.';
+$wb['run_wday_error_format'] = 'Neveljavna oblika za dneve v tednu.';
+$wb['command_error_format'] = 'Neveljavna oblika ukaza. Upoštevajte, da je v primeru klica url dovoljen samo http/https.';
+$wb['unknown_fieldtype_error'] = 'Uporabljena je bila neznana vrsta polja.';
+$wb['server_id_error_empty'] = 'ID strežnika je prazen.';
+$wb['command_hint_txt'] = 'npr. /var/www/clients/clientX/webY/myscript.sh ali https://www.mydomain.com/path/script.php, lahko uporabite nadomestno oznako [web_root], ki jo nadomesti /var/www/clients/clientX /webY/splet.';
+$wb['log_output_txt'] = 'Izpis dnevnika';
+$wb['limit_cron_url_txt'] = 'Samo URL cron. Vnesite URL, ki se začne s https:// kot ukaz cron.';
+$wb['command_error_empty'] = 'Ukaz je prazen.';
+?>

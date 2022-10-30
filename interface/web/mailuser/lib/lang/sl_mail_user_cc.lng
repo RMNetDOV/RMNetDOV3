@@ -1,0 +1,11 @@
+<?php
+$wb['mailbox_cc_txt'] = 'Pošlji kopijo na e-poštni naslov';
+$wb['cc_txt'] = 'Pošlji kopijo';
+$wb['email_txt'] = 'E-pošta';
+$wb['cc_error_isemail'] = 'E-poštni naslov ni veljaven v polju -Pošlji kopijo';
+$wb['email_is_cc_error'] = 'E-poštni naslov in naslov za pošiljanje kopije ne moreta biti enaka.';
+$wb['name_optional_txt'] = '(Izbirno)';
+$wb['cc_note_txt'] = '(Več e-poštnih naslovov ločite z vejicami)';
+$wb['forward_in_lda_txt'] = 'Kopiraj med dostavo';
+$wb['tooltip_forward_in_lda_txt'] = 'Nadzoruje, ali je kopija pošte posredovana pred ali med dostavo v nabiralnik.';
+?>

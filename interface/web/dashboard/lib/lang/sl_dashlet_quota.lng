@@ -1,0 +1,8 @@
+<?php
+$wb['quota_txt'] = 'Kvota trdega diska spletne strani';
+$wb['domain_txt'] = 'Domena / Spletna stran';
+$wb['used_txt'] = 'Uporabljen prostor';
+$wb['hard_txt'] = 'Trda omejitev';
+$wb['soft_txt'] = 'Mehka omejitev';
+$wb['no_sites_txt'] = 'Ni najdenih spletnih mest.';
+?>

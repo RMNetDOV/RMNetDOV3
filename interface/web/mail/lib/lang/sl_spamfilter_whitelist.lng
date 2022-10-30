@@ -1,0 +1,12 @@
+<?php
+$wb['server_id_txt'] = 'Strežnik';
+$wb['wb_txt'] = 'wb';
+$wb['rid_txt'] = 'Uporabnik';
+$wb['email_txt'] = 'E-pošta';
+$wb['priority_txt'] = 'Prednost';
+$wb['active_txt'] = 'Aktivno';
+$wb['limit_spamfilter_wblist_txt'] = 'Najv. doseženo je število zapisov na beli ali črni listi za vaš račun.';
+$wb['10 - najvišje'] = '10 - najvišje';
+$wb['5 - medium'] = '5 - srednje';
+$wb['1 - lowest'] = '1 - najnižji';
+?>

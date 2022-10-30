@@ -1,0 +1,7 @@
+<?php
+$wb['name_txt'] = 'Ime';
+$wb['fields_txt'] = 'Polja';
+$wb['template_txt'] = 'Predloga';
+$wb['visible_txt'] = 'Viden';
+$wb['placeholder_txt'] = 'Oznaka mesta';
+?>

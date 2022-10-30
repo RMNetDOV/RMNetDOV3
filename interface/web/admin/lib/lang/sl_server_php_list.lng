@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'Dodatne različice PHP';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['add_new_record_txt'] = 'Dodaj novo različico PHP';
+$wb['client_id_txt'] = 'Odjemalec';
+$wb['name_txt'] = 'Ime PHP';
+$wb['active_txt'] = 'Aktivno';
+$wb['usage_txt'] = 'Število uporabe';
+?>

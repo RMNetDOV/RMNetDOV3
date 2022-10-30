@@ -1,0 +1,12 @@
+<?php
+$wb['select_server_txt'] = 'Izberi strežnik';
+$wb['btn_do_txt'] = 'Izvedi dejanje';
+$wb['do_osupdate_caption'] = 'Izvedi posodobitev OS na oddaljenem strežniku';
+$wb['do_osupdate_desc'] = 'To dejanje naredi "apt -y nadgradnjo" na vašem izbranem strežniku.<br><br><strong>TO UPORABLJAJTE NA LASTNO ODGOVORNOST!</strong>';
+$wb['do_rmnetdovupdate_caption'] = 'Naredi RM-Net - DOV CP 3 - Posodobitev na oddaljenem strežniku';
+$wb['do_rmnetdovupdate_desc'] = 'To dejanje izvede posodobitev RM-Net - DOV CP3 na vašem izbranem strežniku.<br><br><strong>TO UPORABLJAJTE NA LASTNO ODGOVORNOST!</strong>';
+$wb['action_scheduled'] = 'Dejanje je načrtovano za izvedbo';
+$wb['select_all_server'] = 'Vsi strežniki';
+$wb['rmnetdov_update_title'] = 'RM-Net – navodila za posodobitev DOV CP';
+$wb['rmnetdov_update_text'] = 'Prijavite se kot korenski uporabnik v lupino vašega strežnika in izvedite ukaz<br /><br /> <strong>rmnetdov_update.sh</strong><br /><br />za zaženite posodobitev RM-Net - DOV CP.<br /><br /><a href="https://github.com/RMNetDOV/RMNetDOV3/wiki/Kako-posodobiti-RM-Net---DOV-CP -3/" target="_blank">Kliknite tukaj za podrobna navodila za posodobitev</a>';
+?>

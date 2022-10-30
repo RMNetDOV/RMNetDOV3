@@ -1,0 +1,13 @@
+<?php
+$wb['template_type_txt'] = 'Vrsta e-pošte';
+$wb['template_name_txt'] = 'Ime predloge';
+$wb['subject_txt'] = 'Zadeva';
+$wb['message_txt'] = 'Sporočilo';
+$wb['Email template'] = 'E-poštna predloga';
+$wb['Settings'] = 'Nastavitev';
+$wb['variables_txt'] = 'Spremenljivke';
+$wb['variables_description_txt'] = '(Spremenljivki uporabniškega imena in gesla sta na voljo samo v pozdravnih e-poštnih sporočilih.)';
+$wb['duplicate_welcome_error'] = 'Obstaja lahko samo ena privzeta pozdravna e-poštna predloga. Uredite obstoječo predlogo namesto dodajanja nove.';
+$wb['subject_error_empty'] = 'Zadeva je prazna';
+$wb['message_error_empty'] = 'Sporočilo je prazno';
+?>

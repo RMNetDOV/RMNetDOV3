@@ -1,0 +1,7 @@
+<?php
+$wb['head_txt'] = 'Uvozi e-poštno konfiguracijo iz Vpopmail';
+$wb['legend_txt'] = 'Podrobnosti povezave z oddaljenim strežnikom baze podatkov';
+$wb['btn_start_txt'] = 'Začni uvoz';
+$wb['btn_connect_txt'] = 'Poveži se z oddaljenim strežnikom';
+$wb['btn_cancel_txt'] = 'Prekliči';
+?>

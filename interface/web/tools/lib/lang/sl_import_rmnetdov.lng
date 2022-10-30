@@ -1,0 +1,25 @@
+<?php
+$wb['head_txt'] = 'Uvozi e-poštno konfiguracijo iz RM-Net - DOV CP 3';
+$wb['legend_txt'] = 'Podrobnosti povezave z oddaljenim strežnikom';
+$wb['legend2_txt'] = 'Uvozi e-poštno domeno';
+$wb['resync_sites_txt'] = 'Ponovna sinhronizacija spletnih mest';
+$wb['resync_ftp_txt'] = 'Ponovna sinhronizacija uporabnikov FTP';
+$wb['resync_shell_txt'] = 'Ponovna sinhronizacija uporabnikov lupine';
+$wb['resync_cron_txt'] = 'Ponovna sinhronizacija cronjobs';
+$wb['resync_db_txt'] = 'Ponovna sinhronizacija konfiguracije clientdb';
+$wb['resync_mailbox_txt'] = 'Ponovna sinhronizacija nabiralnikov';
+$wb['resync_dns_txt'] = 'Ponovna sinhronizacija zapisov DNS';
+$wb['btn_start_txt'] = 'Začni uvoz';
+$wb['btn_connect_txt'] = 'Poveži se z oddaljenim strežnikom';
+$wb['btn_cancel_txt'] = 'Prekliči';
+$wb['client_group_id_txt'] = 'Lokalni odjemalec';
+$wb['mail_domain_txt'] = 'Oddaljena e-poštna domena';
+$wb['import_mailbox_txt'] = 'Uvozi nabiralnik';
+$wb['import_aliasdomain_txt'] = 'Uvozi vzdevek domene';
+$wb['import_alias_txt'] = 'Uvozi e-poštni vzdevek';
+$wb['import_forward_txt'] = 'Uvozi naprej';
+$wb['import_user_filter_txt'] = 'Uvozi uporabniški filter';
+$wb['import_spamfilter_txt'] = 'Uvozi filter neželene pošte';
+$wb['local_server_txt'] = 'Lokalni poštni strežnik';
+
+?>

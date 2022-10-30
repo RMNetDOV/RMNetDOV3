@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Čakalna vrsta opravil';
+$wb['tstamp_txt'] = 'Datum';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['dbtable_txt'] = 'Tabela DB';
+$wb['action_txt'] = 'Dejanje';
+$wb['status_txt'] = 'Stanje';
+?>

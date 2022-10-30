@@ -1,0 +1,31 @@
+<?php
+$wb['Client'] = 'Odjemalec';
+$wb['Address'] = 'Naslov';
+$wb['Limits'] = 'Omejitve';
+$wb['Add Client'] = 'Dodaj odjemalca';
+$wb['Edit Client'] = 'Uredi odjemalca';
+$wb['Clients'] = 'Odjemalci';
+$wb['Templates'] = 'Predloge';
+$wb['Limit-Templates'] = 'Omejitvene predloge';
+$wb['Add Reseller'] = 'Dodaj prodajalca';
+$wb['Edit Reseller'] = 'Urejanje prodajalca';
+$wb['Resellers'] = 'Preprodajalci';
+$wb['error_has_clients'] = 'Ta preprodajalec ima stranke. Najprej izbrišite stranke prodajalca.';
+$wb['add_additional_template_txt'] = 'Dodaj dodatno predlogo';
+$wb['delete_additional_template_txt'] = 'Izbriši dodatno predlogo';
+$wb['Messaging'] = 'Sporočila';
+$wb['Send email'] = 'Pošlji e-pošto';
+$wb['Edit Client Circle'] = 'Urejanje kroga strank';
+$wb['Domains'] = 'Domene';
+$wb['Add Domain'] = 'Dodaj domeno';
+$wb['domain_txt'] = 'Domena';
+$wb['client_txt'] = 'Odjemalec';
+$wb['error_domain_in dnsuse'] = 'Te domene ni mogoče izbrisati, ker je v uporabi kot cona dns';
+$wb['error_domain_in dnsslaveuse'] = 'Te domene ni mogoče izbrisati, ker je v uporabi kot sekundarno območje DNS';
+$wb['error_domain_in mailuse'] = 'Te domene ni mogoče izbrisati, ker je v uporabi kot poštna domena';
+$wb['error_domain_in webuse'] = 'Te domene ni mogoče izbrisati, ker je v uporabi kot spletna domena';
+$wb['error_client_can_not_add_domain'] = 'Ne morete dodati nove domene';
+$wb['domain_txt'] = 'Domena';
+$wb['error_client_group_id_empty'] = 'Izbrati morate stranko<br>';
+$wb['Email-Templates'] = 'E-poštne predloge';
+?>

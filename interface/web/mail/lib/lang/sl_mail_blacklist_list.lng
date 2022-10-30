@@ -1,0 +1,10 @@
+<?php
+$wb['list_head_txt'] = 'E-poštni črni seznam';
+$wb['active_txt'] = 'Aktivno';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['source_txt'] = 'Naslov na črnem seznamu';
+$wb['type_txt'] = 'Tip';
+$wb['recipient_txt'] = 'Prejemnik';
+$wb['add_new_record_txt'] = 'Dodaj nov zapis črne liste';
+$wb['access_txt'] = 'dostop';
+?>

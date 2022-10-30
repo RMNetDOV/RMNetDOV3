@@ -1,0 +1,26 @@
+<?php
+$wb['server_id_txt'] = 'Strežnik';
+$wb['domain_txt'] = 'Domena';
+$wb['type_txt'] = 'Tip';
+$wb['active_txt'] = 'Aktivno';
+$wb['dkim_txt'] = 'omogoči DKIM';
+$wb['dkim_private_txt'] = 'Zasebni ključ DKIM';
+$wb['dkim_public_txt'] = 'Javni ključ DKIM\nsamo za informacijo';
+$wb['dkim_generate_txt'] = 'Ustvari zasebni ključ DKIM';
+$wb['dkim_dns_txt'] = 'DNS-zapis';
+$wb['dkim_private_key_error'] = 'Neveljaven zasebni ključ DKIM';
+$wb['domain_error_empty'] = 'Domena je prazna.';
+$wb['domain_error_unique'] = 'Podvojena domena.';
+$wb['domain_error_regex'] = 'Neveljavno ime domene.';
+$wb['dkim_settings_txt'] = 'DomainKeys Identified Mail (DKIM)';
+$wb['client_txt'] = 'Odjemalec';
+$wb['limit_maildomain_txt'] = 'Najv. število e-poštnih domen za vaš račun je doseženo.';
+$wb['policy_txt'] = 'Filter neželene pošte';
+$wb['no_policy'] = '- ni omogočeno -';
+$wb['error_not_allowed_server_id'] = 'Izbrani strežnik ni dovoljen za ta račun.';
+$wb['dkim_selector_txt'] = 'Izbirnik DKIM';
+$wb['dkim_selector_error'] = 'Neveljaven izbirnik DKIM. Uporabljajte samo male črke alfanumerične znake (a-z ali 0-9) do 63 znakov';
+$wb['relayhost_txt'] = 'Relayhost';
+$wb['relayhost_user_txt'] = 'Uporabnik Relayhost';
+$wb['relayhost_password_txt'] = 'Geslo gostitelja relejnika';
+?>

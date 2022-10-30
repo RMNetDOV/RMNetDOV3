@@ -1,0 +1,18 @@
+<?php
+$wb['tpl_default_admin_head_txt'] = 'Globalne nastavitve privzete teme';
+$wb['tpl_default_admin_desc_txt'] = '';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['client_id_txt'] = 'Odjemalec';
+$wb['name_txt'] = 'Ime PHP';
+$wb['Name'] = 'Ime';
+$wb['FastCGI Settings'] = 'Nastavitve FastCGI';
+$wb['PHP-FPM Settings'] = 'Nastavitve PHP-FPM';
+$wb['Additional PHP Versions'] = 'Dodatne različice PHP';
+$wb['Form to edit additional PHP versions'] = 'Obrazec za urejanje dodatnih PHP različic';
+$wb['server_php_name_error_empty'] = 'Polje Ime ne sme biti prazno.';
+$wb['php_fastcgi_binary_txt'] = 'Pot do binarne datoteke PHP FastCGI';
+$wb['php_fastcgi_ini_dir_txt'] = 'Pot do imenika php.ini';
+$wb['php_fpm_init_script_txt'] = 'Pot do zagonskega skripta PHP-FPM';
+$wb['php_fpm_ini_dir_txt'] = 'Pot do imenika php.ini';
+$wb['php_fpm_pool_dir_txt'] = 'Pot do imenika bazena PHP-FPM';
+?>

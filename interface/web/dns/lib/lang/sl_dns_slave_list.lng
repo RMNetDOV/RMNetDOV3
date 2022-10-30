@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'Sekundarna območja DNS';
+$wb['active_txt'] = 'Aktivno';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['origin_txt'] = 'Območje';
+$wb['ns_txt'] = 'NS';
+$wb['add_new_record_txt'] = 'Dodaj novo sekundarno DNS-območje';
+$wb['eg_domain_tld'] = 'npr. domena.tld.';
+?>

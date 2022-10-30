@@ -1,0 +1,10 @@
+<?php
+$wb['mail_relay_domain_title'] = 'Domena e-poštnega posrednika';
+$wb['tab_relay_domain_title'] = 'Domena prenosa';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['active_txt'] = 'Aktivno';
+$wb['domain_txt'] = 'Domena';
+$wb['domain_error_regex'] = 'Neveljavno ime domene.';
+$wb['domain_error_empty'] = 'Domena je prazna.';
+$wb['domain_error_unique'] = 'Ta domena že obstaja kot domena za posredovanje pošte na tem strežniku.';
+?>

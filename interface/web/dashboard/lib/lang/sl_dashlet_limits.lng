@@ -1,0 +1,34 @@
+<?php
+$wb['limits_txt'] = 'Omejitve računa';
+$wb['of_txt'] = 'od';
+$wb['limit_maildomain_txt'] = 'Število e-poštnih domen';
+$wb['limit_mailmailinglist_txt'] = 'Število poštnih seznamov';
+$wb['limit_mailbox_txt'] = 'Število poštnih predalov';
+$wb['limit_mailalias_txt'] = 'Število e-poštnih vzdevkov';
+$wb['limit_mailaliasdomain_txt'] = 'Število vzdevkov e-poštnih domen';
+$wb['limit_mailforward_txt'] = 'Število posrednikov elektronske pošte';
+$wb['limit_mailcatchall_txt'] = 'Število računov za prestrezanje elektronske pošte';
+$wb['limit_mailrouting_txt'] = 'Število e-poštnih poti';
+$wb['limit_mailfilter_txt'] = 'Število e-poštnih filtrov';
+$wb['limit_fetchmail_txt'] = 'Število fetchmail računov';
+$wb['limit_spamfilter_wblist_txt'] = 'Število filtrov filtrov za neželeno pošto beli/črni seznam';
+$wb['limit_spamfilter_user_txt'] = 'Število uporabnikov filtra za neželeno pošto';
+$wb['limit_spamfilter_policy_txt'] = 'Število pravilnikov filtra neželene pošte';
+$wb['limit_cron_txt'] = 'Število opravil cron';
+$wb['limit_web_domain_txt'] = 'Število spletnih domen';
+$wb['limit_web_aliasdomain_txt'] = 'Število spletnih vzdevkov';
+$wb['limit_web_subdomain_txt'] = 'Število spletnih poddomen';
+$wb['limit_ftp_user_txt'] = 'Število uporabnikov FTP';
+$wb['limit_dns_zone_txt'] = 'Število območij DNS';
+$wb['limit_dns_slave_zone_txt'] = 'Število podrejenih območij DNS';
+$wb['limit_dns_record_txt'] = 'Število zapisov DNS';
+$wb['limit_shell_user_txt'] = 'Število uporabnikov lupine';
+$wb['limit_webdav_user_txt'] = 'Število uporabnikov Webdav';
+$wb['limit_client_txt'] = 'Število strank';
+$wb['limit_database_txt'] = 'Število baz podatkov';
+$wb['limit_domain_txt'] = 'Število domen';
+$wb['limit_mailquota_txt'] = 'Dodeljena kvota poštnega predala';
+$wb['limit_web_quota_txt'] = 'Dodeljena spletna kvota';
+$wb['limit_database_quota_txt'] = 'Dodeljena kvota zbirke podatkov';
+$wb['limit_mail_wblist_txt'] = 'Število vnosov na belo/črno listo e-pošte';
+?>

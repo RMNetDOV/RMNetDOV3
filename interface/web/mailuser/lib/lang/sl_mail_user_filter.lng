@@ -1,0 +1,26 @@
+<?php
+$wb['rulename_txt'] = 'Ime';
+$wb['action_txt'] = 'Dejanje';
+$wb['target_txt'] = 'Mapa';
+$wb['active_txt'] = 'Aktivno';
+$wb['rulename_error_empty'] = 'Ime je prazno.';
+$wb['searchterm_is_empty'] = 'Iskalni izraz je prazen.';
+$wb['source_txt'] = 'Vir';
+$wb['target_error_regex'] = 'Cilj lahko vsebuje le te znake: a-z, 0-9, -, ., _, &, / in {presledek}';
+$wb['limit_mailfilter_txt'] = 'Najv. doseženo je število poštnih filtrov.';
+$wb['mailbox_filter_txt'] = 'Filter poštnega predala';
+$wb['subject_txt'] = 'Zadeva';
+$wb['from_txt'] = 'Od';
+$wb['to_txt'] = 'Za';
+$wb['list_id_txt'] = 'ID seznama';
+$wb['contains_txt'] = 'Vsebuje';
+$wb['is_txt'] = 'Je';
+$wb['begins_with_txt'] = 'Začne se z';
+$wb['ends_with_txt'] = 'Konča se z';
+$wb['move_to_txt'] = 'Premakni v';
+$wb['regex_txt'] = 'Ujema se z regularnim izrazom';
+$wb['delete_txt'] = 'Izbriši';
+$wb['header_txt'] = 'Glava';
+$wb['size_over_txt'] = 'Velikost e-poštnega sporočila presega (KB)';
+$wb['size_under_txt'] = 'Velikost elektronske pošte pod (KB)';
+?>

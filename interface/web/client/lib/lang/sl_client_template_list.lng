@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'Predloge strank in prodajalcev';
+$wb['template_type_txt'] = 'Vrsta';
+$wb['template_name_txt'] = 'Ime predloge';
+$wb['template_id_txt'] = 'ID predloge';
+$wb['sys_groupid_txt'] = 'Prodajalec';
+?>

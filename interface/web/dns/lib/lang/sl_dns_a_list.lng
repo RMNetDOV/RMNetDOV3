@@ -1,0 +1,15 @@
+<?php
+$wb['list_head_txt'] = 'A-zapis';
+$wb['active_txt'] = 'Aktivno';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['zone_txt'] = 'Območje';
+$wb['name_txt'] = 'Ime';
+$wb['data_txt'] = 'Podatki';
+$wb['aux_txt'] = 'Prednost';
+$wb['ttl_txt'] = 'TTL';
+$wb['type_txt'] = 'Tip';
+$wb['add_new_record_txt'] = 'Dodaj nov DNS A-zapis';
+$wb['page_txt'] = 'Stran';
+$wb['page_of_txt'] = 'od';
+$wb['delete_confirmation'] = 'Ali res želite izbrisati ta zapis?';
+?>

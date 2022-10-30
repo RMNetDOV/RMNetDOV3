@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Preverjanje glave in telesa postfiksa';
+$wb['active_txt'] = 'Aktivno';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['pattern_txt'] = 'Vzorec';
+$wb['action_txt'] = 'Dejanje';
+$wb['add_new_record_txt'] = 'Dodaj nov vsebinski filter';
+?>

@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'Beli seznam filtra za neželeno pošto';
+$wb['active_txt'] = 'Aktivno';
+$wb['server_id_txt'] = 'Strežnik';
+$wb['priority_txt'] = 'Prednost';
+$wb['rid_txt'] = 'Uporabnik';
+$wb['email_txt'] = 'E-pošta na belem seznamu';
+$wb['add_new_record_txt'] = 'Dodaj zapis na beli seznam';
+?>

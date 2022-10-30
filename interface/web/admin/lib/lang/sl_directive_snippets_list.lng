@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Izrezki direktiv';
+$wb['active_txt'] = 'Aktivno';
+$wb['name_txt'] = 'Ime izrezka';
+$wb['type_txt'] = 'Tip';
+$wb['add_new_record_txt'] = 'Dodaj izrezek direktive';
+$wb['customer_viewable_txt'] = 'Stranka vidna';
+?>

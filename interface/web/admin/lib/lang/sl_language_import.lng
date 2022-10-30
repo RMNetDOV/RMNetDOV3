@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'Uvozi jezikovno datoteko';
+$wb['list_desc_txt'] = 'OPOZORILO: Ne uvažajte jezikovnih datotek iz nezaupljivih virov.';
+$wb['language_import_txt'] = 'Izberite jezikovno datoteko';
+$wb['btn_save_txt'] = 'Uvozi izbrano jezikovno datoteko';
+$wb['language_overwrite_txt'] = 'Prepiši datoteko, če obstaja.';
+$wb['btn_cancel_txt'] = 'Nazaj';
+$wb['ignore_version_txt'] = 'Preskoči RM-Net - DOV CP preverjanje različice';
+?>

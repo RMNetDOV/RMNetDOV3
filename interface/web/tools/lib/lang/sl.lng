@@ -1,0 +1,13 @@
+<?php
+$wb['User Settings'] = 'Uporabniške nastavitve';
+$wb['Settings'] = 'Nastavitve';
+$wb['RMNetDOV Tools'] = 'RM-Net – DOV CP Orodja';
+$wb['Interface'] = 'Vmesnik';
+$wb['Password and Language'] = 'Geslo in jezik';
+$wb['rmnetdov_tools_note'] = 'Ta modul vam omogoča, da spremenite geslo in jezik ter začnete ponovno sinhronizacijo zapisov DNS.';
+$wb['Sync Tools'] = 'Orodja za sinhronizacijo';
+$wb['Resync'] = 'Ponovna sinhronizacija';
+$wb['Import'] = 'Uvoz';
+$wb['RMNetDOV 3 mail'] = 'RM-Net - DOV CP 3 pošta';
+$wb['PDNS Tupa'] = 'PowerDNS Tupa';
+?>

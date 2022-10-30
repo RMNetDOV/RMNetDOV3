@@ -1,0 +1,5 @@
+<?php
+$wb['list_head_txt'] = 'Predloga navideznega stroja OpenVZ';
+$wb['active_txt'] = 'Aktivno';
+$wb['template_name_txt'] = 'Ime predloge';
+?>

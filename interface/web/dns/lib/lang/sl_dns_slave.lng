@@ -1,0 +1,17 @@
+<?php
+$wb['server_id_txt'] = 'Strežnik';
+$wb['origin_txt'] = 'DNS-Območje';
+$wb['secondary_zone_txt'] = 'Sekundarno območje DNS';
+$wb['ns_txt'] = 'NS (IP-naslov)';
+$wb['active_txt'] = 'Aktivno';
+$wb['limit_dns_slave_zone_txt'] = 'Najv. Doseženo je število sekundarnih območij DNS za vaš račun.';
+$wb['client_txt'] = 'Odjemalec';
+$wb['xfer_txt'] = 'Dovoli prenos cone na <br />te IP-je (seznam ločen z vejicami)';
+$wb['server_id_error_empty'] = 'Ni izbran strežnik';
+$wb['origin_error_empty'] = 'Območje je prazno.';
+$wb['origin_error_unique'] = 'Za to območje že obstaja zapis.';
+$wb['origin_error_regex'] = 'Območje ima neveljavno obliko.';
+$wb['ns_error_regex'] = 'NS ima neveljavno obliko.';
+$wb['eg_domain_tld'] = 'npr. domena.tld.';
+$wb['ipv4_form_txt'] = 'Več naslovov IP ločite z vejicami';
+?>
