@@ -8,5 +8,5 @@ $wb['do_rmnetdovupdate_desc'] = 'Bu işlem seçilmiş sunucuda RM-Net - DOV CP3 
 $wb['action_scheduled'] = 'İşlem yürütülmek üzere zamanlandı';
 $wb['select_all_server'] = 'Tüm Sunucularda';
 $wb['rmnetdov_update_title'] = 'RM-Net - DOV CP güncelleme yönergeleri';
-$wb['rmnetdov_update_text'] = 'Sunucunuzda root kullanıcısı ile bir kabuk oturumu açın ve RM-Net - DOV CP güncellemesini başlatmak için<br /><br /> <strong>rmnetdov_update.sh</strong><br /><br />komutunu yürütün.<br /><br /><a href= target=>Ayrıntılı güncelleme bilgilerine bakmak için buraya tıklayın</a>';
+$wb['rmnetdov_update_text'] = 'Sunucunuzda root kullanıcısı ile bir kabuk oturumu açın ve RM-Net - DOV CP güncellemesini başlatmak için<br /><br /> <strong>rmnetdov_update.sh</strong><br /><br />komutunu yürütün.<br /><br /><a href=https://github.com/RMNetDOV/RMNetDOV3/wiki/Kako-posodobiti-RM-Net---DOV-CP-3/ target=_blank>Ayrıntılı güncelleme bilgilerine bakmak için buraya tıklayın</a>';
 ?>

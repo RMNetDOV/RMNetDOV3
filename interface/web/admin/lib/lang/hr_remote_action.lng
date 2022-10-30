@@ -8,5 +8,5 @@ $wb['do_rmnetdovupdate_desc'] = 'Ovime pokrećete nadogradnju RM-Net - DOV CP3-a
 $wb['action_scheduled'] = 'Nadogradnja je dodana u planer poslova';
 $wb['select_all_server'] = 'Svi serveri';
 $wb['rmnetdov_update_title'] = 'Upute za RM-Net - DOV CP nadogradnju';
-$wb['rmnetdov_update_text'] = 'Logiraj se kao root korisnik na server (SSH) i pokreni:<br /><br /><strong>rmnetdov_update.sh</strong><br /><br /><a href=\'https://www.faqforge.com/linux/controlpanels/ispconfig3/how-to-update-ispconfig-3/\' target=\'_blank\'>Pogledaj detaljne upute ovdje</a>';
+$wb['rmnetdov_update_text'] = 'Logiraj se kao root korisnik na server (SSH) i pokreni:<br /><br /><strong>rmnetdov_update.sh</strong><br /><br /><a href=\'https://github.com/RMNetDOV/RMNetDOV3/wiki/Kako-posodobiti-RM-Net---DOV-CP-3/\' target=\'_blank\'>Pogledaj detaljne upute ovdje</a>';
 ?>

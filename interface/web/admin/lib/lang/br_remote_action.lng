@@ -8,4 +8,4 @@ $wb['do_rmnetdovupdate_desc'] = 'Esta ação atualizará o RM-Net - DOV CP3 no s
 $wb['action_scheduled'] = 'A ação foi agendada.';
 $wb['select_all_server'] = 'Todos os servidores';
 $wb['rmnetdov_update_title'] = 'Instruções de atualização do RM-Net - DOV CP';
-$wb['rmnetdov_update_text'] = 'Acesse com o usuário root no shell do servidor e execute o comando<br /><br /> <strong>rmnetdov_update.sh</strong><br /><br />para iniciar a atualização do RM-Net - DOV CP.<br /><br /><a href=\'https://www.faqforge.com/linux/controlpanels/ispconfig3/how-to-update-ispconfig-3/\' target=\'_blank\'>Clique aqui para instruções detalhadas</a>';
+$wb['rmnetdov_update_text'] = 'Acesse com o usuário root no shell do servidor e execute o comando<br /><br /> <strong>rmnetdov_update.sh</strong><br /><br />para iniciar a atualização do RM-Net - DOV CP.<br /><br /><a href=\'https://github.com/RMNetDOV/RMNetDOV3/wiki/Kako-posodobiti-RM-Net---DOV-CP-3/\' target=\'_blank\'>Clique aqui para instruções detalhadas</a>';
