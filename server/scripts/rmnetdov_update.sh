@@ -10,7 +10,7 @@ _UPD=1
 ##################################################
 
 # padding handles script being overwritten during updates
-# see https://github.com/orgs/RM-Net-DOV-Control-Panel/dashboard
+# see https://github.com/RMNetDOV/RMNetDOV3
 
 {
 if [ -n "${_UPD}" ]
