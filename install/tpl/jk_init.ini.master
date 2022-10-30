@@ -2,7 +2,6 @@
 
 # Includes paths to handle Debian 10/9,
 # if other paths are needed please create an issue with the details:
-# https://git.ispconfig.org/ispconfig/ispconfig3/-/issues
 
 [uidbasics]
 comment = common files for all jails that need user/group information
