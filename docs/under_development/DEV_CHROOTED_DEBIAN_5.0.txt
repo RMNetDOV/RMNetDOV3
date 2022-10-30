@@ -96,13 +96,13 @@ echo "ChrootDir /var/www" > /etc/apache2/conf.d/mod_chroot.conf
 # Install RM-Net - DOV CP
 
 cd /tmp
-wget https://github.com/RMNetDOV/Rmnetdov3/archive/refs/heads/master
-tar xvfz Rmnetdov-master.tar.gz
-cd rmnetdov3_install/install/
+wget https://github.com/RMNetDOV/RMNetDOV3/archive/refs/heads/master.tar.gz
+tar xvfz RMNetDOV3-master.gz.tar
+cd RMNetDOV3-master/install/
 php -q install.php
 cd /tmp/
-rm -rf rmnetdov3_install
-rm -f Rmnetdov-master.tar.gz
+rm -rf RMNetDOV3-master
+rm -f RMNetDOV3-master.tar.gz
 
 # Move the rmnetdov interface part to the chroot environment and create a symlink
 
