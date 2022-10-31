@@ -2,7 +2,6 @@
 <p align="center">
   <img src="https://avatars.githubusercontent.com/u/116940927" alt="RM-Net - DOV oPOS" width="200" height="200">
 </p>
-[![version](https://github.com/RMNetDOV/RMNetDOV3/releases/tag/3.2.8p2)]
 
 ## Funkcije
 - Upravljajte več strežnikov z ene nadzorne plošče
