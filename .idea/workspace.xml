@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d8cd55fb-e132-4b33-906d-358d1c88f993" name="Changes" comment="RM-Net - DOV CP" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2GrDbjZxJgxXHxYVSyHU1Q1fOeZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RMNetDOV3 Autoinstaller" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/interface/web/sites/lib/lang" />
+      <recent name="$PROJECT_DIR$/interface/web/mail/lib/lang" />
+      <recent name="$PROJECT_DIR$/interface/web/vm/lib/lang" />
+      <recent name="$PROJECT_DIR$/interface/web/tools/lib/lang" />
+      <recent name="$PROJECT_DIR$/interface/web/strengthmeter/lib/lang" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8cd55fb-e132-4b33-906d-358d1c88f993" name="Changes" comment="" />
+      <created>1667137882434</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667137882434</updated>
+    </task>
+    <task id="LOCAL−00001" summary="RM-Net - DOV CP">
+      <created>1667138599575</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1667138599575</updated>
+    </task>
+    <task id="LOCAL−00002" summary="RM-Net - DOV CP">
+      <created>1667141062561</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1667141062561</updated>
+    </task>
+    <task id="LOCAL−00003" summary="RM-Net - DOV CP">
+      <created>1667142830559</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1667142830559</updated>
+    </task>
+    <task id="LOCAL−00004" summary="RM-Net - DOV CP">
+      <created>1667165488933</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1667165488933</updated>
+    </task>
+    <task id="LOCAL−00005" summary="RM-Net - DOV CP">
+      <created>1667218328332</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1667218328332</updated>
+    </task>
+    <task id="LOCAL−00006" summary="RM-Net - DOV CP">
+      <created>1667246218098</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1667246218098</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="RM-Net - DOV CP" />
+    <option name="LAST_COMMIT_MESSAGE" value="RM-Net - DOV CP" />
+  </component>
+</project>
