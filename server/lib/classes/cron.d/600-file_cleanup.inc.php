@@ -72,7 +72,7 @@ class cronjob_file_cleanup extends cronjob {
 			foreach (glob('/etc/rspamd/local.d/users/*.conf') as $file) {
 				if($handle = fopen($file, 'r')) {
 					if(($line = fgets($handle)) !== false) {
-						if(preg_match('/^((?:global|spamfilter)_wblist|ispc_(spamfilter_user|mail_user|mail_forwarding))[_-](\d+)\s/', $line, $matches)) {
+						if(preg_match('/^((?:global|spamfilter)_wblist|rmnetdov_(spamfilter_user|mail_user|mail_forwarding))[_-](\d+)\s/', $line, $matches)) {
 							switch($matches[1]) {
 							case 'global_wblist':
 								$remove = isset($mail_access[$matches[3]]) ? false : true;
@@ -80,13 +80,13 @@ class cronjob_file_cleanup extends cronjob {
 							case 'spamfilter_wblist':
 								$remove = isset($spamfilter_wblist[$matches[3]]) ? false : true;
 								break;
-							case 'ispc_spamfilter_user':
+							case 'rmnetdov_spamfilter_user':
 								$remove = isset($spamfilter_users[$matches[3]]) ? false : true;
 								break;
-							case 'ispc_mail_user':
+							case 'rmnetdov_mail_user':
 								$remove = isset($mail_user[$matches[3]]) ? false : true;
 								break;
-							case 'ispc_mail_forwarding':
+							case 'rmnetdov_mail_forwarding':
 								$remove = isset($mail_forwarding[$matches[3]]) ? false : true;
 								break;
 							default:

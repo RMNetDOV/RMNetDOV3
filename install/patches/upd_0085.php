@@ -13,7 +13,7 @@ class upd_0085 extends installer_patch_update {
 	public function onAfterSQL() {
 		global $inst, $conf;
 		
-		$cron_files = $conf['cron']['crontab_dir'] . '/ispc_*';
+		$cron_files = $conf['cron']['crontab_dir'] . '/rmnet_*';
 		$check_suffix = '';
 		if (file_exists('/etc/gentoo-release')) {
 			$cron_files .= '.cron';

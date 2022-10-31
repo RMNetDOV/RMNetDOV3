@@ -247,7 +247,7 @@ class cron_plugin {
 			}
 		}
 
-		$cron_file = $cron_config["crontab_dir"].'/ispc_'.$this->parent_domain["system_user"];
+		$cron_file = $cron_config["crontab_dir"].'/rmnetdov_'.$this->parent_domain["system_user"];
 		//TODO : change this when distribution information has been integrated into server record
 		//* Gentoo vixie-cron requires files to end with .cron in the cron.d directory
 		if (file_exists('/etc/gentoo-release')) {
@@ -262,7 +262,7 @@ class cron_plugin {
 			$app->log("Deleted Cron file $cron_file", LOGLEVEL_DEBUG);
 		}
 
-		$cron_file = $cron_config["crontab_dir"].'/ispc_chrooted_'.$this->parent_domain["system_user"];
+		$cron_file = $cron_config["crontab_dir"].'/rmnetdov_chrooted_'.$this->parent_domain["system_user"];
 		if($chr_cmd_count > 0) {
 			$app->system->file_put_contents($cron_file, $chr_cron_content);
 			$app->log("Wrote Cron file $cron_file with content:\n$chr_cron_content", LOGLEVEL_DEBUG);

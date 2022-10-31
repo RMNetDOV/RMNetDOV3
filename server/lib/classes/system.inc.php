@@ -2246,26 +2246,26 @@ class system{
 
 		if($conf['demo_mode'] == true) $app->error("Mail sending disabled in demo mode.");
 
-		$app->uses('getconf,ispcmail');
+		$app->uses('getconf,rmnetdovmail');
 		$mail_config = $app->getconf->get_global_config('mail');
 		if($mail_config['smtp_enabled'] == 'y') {
 			$mail_config['use_smtp'] = true;
-			$app->ispcmail->setOptions($mail_config);
+			$app->rmnetdovmail->setOptions($mail_config);
 		}
-		$app->ispcmail->setSender($from, $from_name);
-		$app->ispcmail->setSubject($subject);
-		$app->ispcmail->setMailText($text);
+		$app->rmnetdovmail->setSender($from, $from_name);
+		$app->rmnetdovmail->setSubject($subject);
+		$app->rmnetdovmail->setMailText($text);
 
 		if($filepath != '') {
 			if(!file_exists($filepath)) $app->error("Mail attachement does not exist ".$filepath);
-			$app->ispcmail->readAttachFile($filepath);
+			$app->rmnetdovmail->readAttachFile($filepath);
 		}
 
-		if($cc != '') $app->ispcmail->setHeader('Cc', $cc);
-		if($bcc != '') $app->ispcmail->setHeader('Bcc', $bcc);
+		if($cc != '') $app->rmnetdovmail->setHeader('Cc', $cc);
+		if($bcc != '') $app->rmnetdovmail->setHeader('Bcc', $bcc);
 
-		$app->ispcmail->send($to);
-		$app->ispcmail->finish();
+		$app->rmnetdovmail->send($to);
+		$app->rmnetdovmail->finish();
 
 		return true;
 	}

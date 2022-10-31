@@ -1,7 +1,7 @@
 #!/usr/bin/php
 <?php
 #
-# ispc-import-csv-email.php: import email accounts from csv into rmnetdov
+# rmnetdov-import-csv-email.php: import email accounts from csv into rmnetdov
 #
 
 # RM-Net - DOV CP remote api params

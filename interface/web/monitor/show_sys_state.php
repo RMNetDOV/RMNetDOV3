@@ -167,7 +167,7 @@ function _getServerState($serverId, $serverName) {
 	$records = $app->db->queryAllRecords("SELECT DISTINCT type, data FROM monitor_data WHERE server_id = ?", $serverId);
 	$osData = null;
 	$veInfo = null;
-	$ispcData = null;
+	$rmnetdovData = null;
 	foreach($records as $record) {
 		/* get the state from the db-data */
 		$tmp = _processDbState($record['type'], $serverId, $serverState, $messages);
@@ -179,8 +179,8 @@ function _getServerState($serverId, $serverName) {
 			$osData = unserialize($record['data']);
 		}
 		/* if we have the RM-Net - DOV CP-info, get it */
-		if ($record['type'] == 'ispc_info') {
-			$ispcData = unserialize($record['data']);
+		if ($record['type'] == 'rmnetdov_info') {
+			$rmnetdovData = unserialize($record['data']);
 		}
 		/* if we have the ve-info, get it */
 		if ($record['type'] == 'openvz_veinfo') {
@@ -215,8 +215,8 @@ function _getServerState($serverId, $serverName) {
 	if ($osData != null) {
 		$html_ve .= ' (' . $osData['name'] . ' ' . $osData['version'] . ') ';
 	}
-	if ($ispcData != null) {
-		$html_ve .= $ispcData['name'] . ' ' . $ispcData['version'] . '</h3>';
+	if ($rmnetdovData != null) {
+		$html_ve .= $rmnetdovData['name'] . ' ' . $rmnetdovData['version'] . '</h3>';
 	}
 	else {
 		$html_ve .= '</h3>';
@@ -261,8 +261,8 @@ function _getServerState($serverId, $serverName) {
 	if ($osData != null) {
 		$html_server .= ' (' . $osData['name'] . ' ' . $osData['version'] . ') ';
 	}
-	if ($ispcData != null) {
-		$html_server .= $ispcData['name'] . ' ' . $ispcData['version'] . '</h3>';
+	if ($rmnetdovData != null) {
+		$html_server .= $rmnetdovData['name'] . ' ' . $rmnetdovData['version'] . '</h3>';
 	}
 	else {
 		$html_server .= '</h3>';

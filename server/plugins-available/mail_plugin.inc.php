@@ -236,7 +236,7 @@ class mail_plugin {
 		}
 
 		// Send the welcome email only on a "master" mail server to avoid duplicate emails, and only send them when welcome emails are enabled.
-		// (bypass the normal ispcmail class when creating mail accounts)
+		// (bypass the normal rmnetdovmail class when creating mail accounts)
 		$global_config = $app->getconf->get_global_config('mail');
 		if($conf['mirror_server_id'] == 0 && $global_config['enable_welcome_mail'] == 'y') mail($mailTarget, $mailSubject, $welcome_mail_message, $mailHeaders, $additionalParameters);
 

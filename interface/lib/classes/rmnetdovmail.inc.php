@@ -8,7 +8,7 @@
  */
 
 
-class ispcmail {
+class rmnetdovmail {
 
 	/**#@+
      * @access private

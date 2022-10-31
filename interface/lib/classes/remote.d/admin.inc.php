@@ -8,7 +8,7 @@ class remoting_admin extends remoting {
 	 * @param string index_field
 	 * @param string index_value
 	 * @param array permissions
-	 * @author "ispcomm", improved by M. Cramer <m.cramer@pixcept.de>
+	 * @author "rmnetdovomm", improved by M. Cramer <m.cramer@pixcept.de>
 	 */
 	public function update_record_permissions($session_id, $tablename, $index_field, $index_value, $permissions) {
 		global $app;

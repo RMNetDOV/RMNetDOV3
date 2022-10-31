@@ -15,7 +15,7 @@
 ##
 ## End the file with 'return 124' to signal that this script should not terminate.
 ##
-## Eg. you can override the ispc_letsencrypt_firewall_disable() function then 'return 124'
+## Eg. you can override the rmnetdov_letsencrypt_firewall_disable() function then 'return 124'
 ## to customize the firewall setup.
 if [ -e "/usr/local/rmnetdov/server/conf-custom/scripts/letsencrypt_post_hook.sh" ] ; then
         . /usr/local/rmnetdov/server/conf-custom/scripts/letsencrypt_post_hook.sh
@@ -23,14 +23,14 @@ if [ -e "/usr/local/rmnetdov/server/conf-custom/scripts/letsencrypt_post_hook.sh
         if [ $ret != 124 ]; then exit $ret; fi
 fi
 
-declare -F ispc_letsencrypt_firewall_disable &>/dev/null || ispc_letsencrypt_firewall_disable() {
-        # delete 'ispc-letsencrypt' chain
-        iptables -D INPUT -p tcp --dport 80 -j ispc-letsencrypt
-        iptables -F ispc-letsencrypt
-        iptables -X ispc-letsencrypt
+declare -F rmnetdov_letsencrypt_firewall_disable &>/dev/null || rmnetdov_letsencrypt_firewall_disable() {
+        # delete 'rmnetdov-letsencrypt' chain
+        iptables -D INPUT -p tcp --dport 80 -j rmnetdov-letsencrypt
+        iptables -F rmnetdov-letsencrypt
+        iptables -X rmnetdov-letsencrypt
 }
 
-ispc_letsencrypt_firewall_disable
+rmnetdov_letsencrypt_firewall_disable
 
 
 # For RHEL, Centos or derivatives

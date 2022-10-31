@@ -46,7 +46,7 @@ class cronjob_bind_dnssec extends cronjob {
 	public function onRunJob() {
 		global $app, $conf;
 		
-		//* job should only run on ispc master
+		//* job should only run on rmnetdov master
 		if($app->db->dbHost != $app->dbmaster->dbHost) return;
 
 		//* Load libraries

@@ -1933,10 +1933,10 @@ class installer_base {
 
 		# local.d/maps.d templates without template tags
 		$maps_d = array(
-			'dkim_whitelist.inc.ispc',
-			'dmarc_whitelist.inc.ispc',
-			'spf_dkim_whitelist.inc.ispc',
-			'spf_whitelist.inc.ispc',
+			'dkim_whitelist.inc.rmnetdov',
+			'dmarc_whitelist.inc.rmnetdov',
+			'spf_dkim_whitelist.inc.rmnetdov',
+			'spf_whitelist.inc.rmnetdov',
 		);
 		foreach ($maps_d as $f) {
 			if(file_exists($conf['rmnetdov_install_dir']."/server/conf-custom/install/rspamd_${f}.master")) {

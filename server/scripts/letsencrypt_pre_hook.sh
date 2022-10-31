@@ -15,7 +15,7 @@
 ##
 ## End the file with 'return 124' to signal that this script should not terminate.
 ##
-## Eg. you can override the ispc_letsencrypt_firewall_enable() function then 'return 124'
+## Eg. you can override the rmnetdov_letsencrypt_firewall_enable() function then 'return 124'
 ## to customize the firewall setup.
 if [ -e "/usr/local/rmnetdov/server/conf-custom/scripts/letsencrypt_pre_hook.sh" ] ; then
 	. /usr/local/rmnetdov/server/conf-custom/scripts/letsencrypt_pre_hook.sh
@@ -23,15 +23,15 @@ if [ -e "/usr/local/rmnetdov/server/conf-custom/scripts/letsencrypt_pre_hook.sh"
 	if [ $ret != 124 ]; then exit $ret; fi
 fi
 
-declare -F ispc_letsencrypt_firewall_enable &>/dev/null || ispc_letsencrypt_firewall_enable() {
-	# create 'ispc-letsencrypt' chain with ACCEPT policy and send port 80 there
-	iptables -N ispc-letsencrypt
-	iptables -I ispc-letsencrypt -p tcp --dport 80 -j ACCEPT
-	iptables -A ispc-letsencrypt -j RETURN
-	iptables -I INPUT -p tcp --dport 80 -j ispc-letsencrypt
+declare -F rmnetdov_letsencrypt_firewall_enable &>/dev/null || rmnetdov_letsencrypt_firewall_enable() {
+	# create 'rmnetdov-letsencrypt' chain with ACCEPT policy and send port 80 there
+	iptables -N rmnetdov-letsencrypt
+	iptables -I rmnetdov-letsencrypt -p tcp --dport 80 -j ACCEPT
+	iptables -A rmnetdov-letsencrypt -j RETURN
+	iptables -I INPUT -p tcp --dport 80 -j rmnetdov-letsencrypt
 }
 
-ispc_letsencrypt_firewall_enable
+rmnetdov_letsencrypt_firewall_enable
 
 # For RHEL, Centos or derivatives
 if which yum &> /dev/null 2>&1 ; then

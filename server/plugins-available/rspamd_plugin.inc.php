@@ -268,7 +268,7 @@ class rspamd_plugin {
 					$tpl->newTemplate("rspamd_users.inc.conf.master");
 				}
 
-				$tpl->setVar('record_identifier', 'ispc_' . $type . '_' . $entry_id);
+				$tpl->setVar('record_identifier', 'rmnetdov_' . $type . '_' . $entry_id);
 				$tpl->setVar('priority', $settings_priority);
 
 				if($type === 'spamfilter_user') {
