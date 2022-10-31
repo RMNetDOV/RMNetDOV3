@@ -48,7 +48,7 @@ if (!defined('vlibIniClassLoaded')) {
 
 			global $conf;
 
-			$tpl_dir = RMNETDO_INSTALL_ROOT."/install/tpl";
+			$tpl_dir = RMNETDOV_INSTALL_ROOT."/install/tpl";
 			$include_paths = array('/usr/local/rmnetdov/server/conf-custom/install');
 
 			return array(
