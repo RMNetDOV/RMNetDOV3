@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8cd55fb-e132-4b33-906d-358d1c88f993" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/web/monitor/lib/lang/sl.lng" beforeDir="false" afterPath="$PROJECT_DIR$/interface/web/monitor/lib/lang/sl.lng" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/web/monitor/lib/lang/sl_syslog_list.lng" beforeDir="false" afterPath="$PROJECT_DIR$/interface/web/monitor/lib/lang/sl_syslog_list.lng" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/web/themes/default/assets/stylesheets/rmnetdov.css" beforeDir="false" afterPath="$PROJECT_DIR$/interface/web/themes/default/assets/stylesheets/rmnetdov.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +101,13 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1667298047343</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="Initial commit">
+      <created>1667313265094</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1667313265094</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
