@@ -6,5 +6,5 @@ $wb['loglevel_txt'] = 'Loglevel';
 $wb['message_txt'] = 'Sporočilo';
 $wb['batch_delete_warnings_txt'] = 'Odstrani vsa opozorila';
 $wb['batch_delete_errors_txt'] = 'Odstrani vse napake';
-$wb['batch_delete_confirmation'] = 'Ali ste prepričani, da želite potrditi vse vnose v dnevnik?'
+$wb['batch_delete_confirmation'] = 'Ali ste prepričani, da želite potrditi vse vnose v dnevnik?';
 ?>
