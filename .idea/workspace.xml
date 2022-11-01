@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8cd55fb-e132-4b33-906d-358d1c88f993" name="Changes" comment="RM-Net - DOV CP">
+    <list default="true" id="d8cd55fb-e132-4b33-906d-358d1c88f993" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/interface/lib/lang/sl.lng" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install/install.php" beforeDir="false" afterPath="$PROJECT_DIR$/install/install.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install/setrights.php" beforeDir="false" afterPath="$PROJECT_DIR$/install/setrights.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install/sql/rmnetdov3.sql" beforeDir="false" afterPath="$PROJECT_DIR$/install/sql/rmnetdov3.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install/uninstall-fedora.php" beforeDir="false" afterPath="$PROJECT_DIR$/install/uninstall-fedora.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install/uninstall.php" beforeDir="false" afterPath="$PROJECT_DIR$/install/uninstall.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/install/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/lib/classes/system.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/lib/classes/system.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/scripts/rmnetdov_update.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/scripts/rmnetdov_update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/scripts/update_runner.sh" beforeDir="false" afterPath="$PROJECT_DIR$/server/scripts/update_runner.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,15 +22,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DODATKI/RMNetDOV3_Roundcube_plugins" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/interface/lib/lang" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/interface/lib/lang" />
       <recent name="$PROJECT_DIR$/interface/web/sites/lib/lang" />
       <recent name="$PROJECT_DIR$/interface/web/mail/lib/lang" />
       <recent name="$PROJECT_DIR$/interface/web/vm/lib/lang" />
       <recent name="$PROJECT_DIR$/interface/web/tools/lib/lang" />
-      <recent name="$PROJECT_DIR$/interface/web/strengthmeter/lib/lang" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -98,7 +90,13 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1667247593215</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="Initial commit">
+      <created>1667295983882</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1667295983882</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="RM-Net - DOV CP" />
-    <option name="LAST_COMMIT_MESSAGE" value="RM-Net - DOV CP" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
