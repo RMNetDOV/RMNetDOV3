@@ -1,7 +1,7 @@
 <?php
 $wb['list_head_txt'] = 'Krogi strank';
 $wb['circle_id_txt'] = 'ID kroga';
-$wb['circle_name_txt'] = 'Ime kroga';
+$wb['circle_name_txt'] = 'Kontaktno ime';
 $wb['description_txt'] = 'Opis';
 $wb['add_new_record_txt'] = 'Dodaj nov krog';
 $wb['filter_txt'] = 'Filter';

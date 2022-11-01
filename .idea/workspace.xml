@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8cd55fb-e132-4b33-906d-358d1c88f993" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/interface/web/themes/default/assets/stylesheets/rmnetdov.css" beforeDir="false" afterPath="$PROJECT_DIR$/interface/web/themes/default/assets/stylesheets/rmnetdov.css" afterDir="false" />
-    </list>
+    <list default="true" id="d8cd55fb-e132-4b33-906d-358d1c88f993" name="Changes" comment="Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +105,19 @@
       <option name="presentableId" value="LOCAL−00011" />
       <updated>1667313265094</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL−00012" summary="Initial commit">
+      <created>1667314348653</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1667314348653</updated>
+    </task>
+    <task id="LOCAL−00013" summary="Initial commit">
+      <created>1667314664113</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1667314664113</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
