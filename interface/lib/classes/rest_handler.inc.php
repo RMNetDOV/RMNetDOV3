@@ -1,13 +1,12 @@
 <?php
 
-
 class RMNetDOVRESTHandler extends RMNetDOVRemotingHandlerBase {
 	private $api_version = 1;
 
 	private function _return_error($code, $codename, $message) {
 		header('HTTP/1.1 ' . $code . ' ' . $codename);
 		print '<!DOCTYPE html>
-		<html lang="en">
+		<html lang="sl">
 		<head>
 		<title>
 		ERROR ' . $code . ': ' . $codename . '
