@@ -15,6 +15,6 @@ $wb['recipient_txt'] = 'Prejemnik';
 $wb['all_clients_resellers_txt'] = 'Vse stranke in preprodajalci';
 $wb['all_clients_txt'] = 'Vsi odjemalci';
 $wb['variables_txt'] = 'Spremenljivke:';
-$wb['gender_m_txt'] = 'Gospod.';
+$wb['gender_m_txt'] = 'Gospod';
 $wb['gender_f_txt'] = 'Gospa';
 ?>
