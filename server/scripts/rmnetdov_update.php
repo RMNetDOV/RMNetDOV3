@@ -49,20 +49,20 @@ require_once '/usr/local/rmnetdov/server/lib/config.inc.php';
 
 echo "\n\n".str_repeat('-', 80)."\n";
 echo "
-       ____  __  __       _   _      _             ____   _____     __   ____ ____
-      |  _ \|  \/  |     | \ | | ___| |_          |  _ \ / _ \ \   / /  / ___|  _ \
-      | |_) | |\/| |_____|  \| |/ _ \ __|  _____  | | | | | | \ \ / /  | |   | |_) |
-      |  _ <| |  | |_____| |\  |  __/ |_  |_____| | |_| | |_| |\ V /   | |___|  __/
-      |_| \_\_|  |_|     |_| \_|\___|\__|         |____/ \___/  \_/     \____|_|
-"
+  ____  __  __       _   _      _             ____   _____     __   ____ ____
+ |  _ \|  \/  |     | \ | | ___| |_          |  _ \ / _ \ \   / /  / ___|  _ \
+ | |_) | |\/| |_____|  \| |/ _ \ __|  _____  | | | | | | \ \ / /  | |   | |_) |
+ |  _ <| |  | |_____| |\  |  __/ |_  |_____| | |_| | |_| |\ V /   | |___|  __/
+ |_| \_\_|  |_|     |_| \_|\___|\__|         |____/ \___/  \_/     \____|_|
+";
 echo "\n".str_repeat('-', 80)."\n";
 echo "\n\n>> Nadgradnja  \n\n";
 echo "Izberite način posodobitve. Za proizvodne sisteme izberite 'stable'. \nOPOZORILO: Posodobitev iz GIT je samo za razvojne sisteme in lahko pokvari vašo trenutno nastavitev. Ne uporabljajte različice GIT na strežnikih, ki gostijo kakršna koli spletna mesta v živo!\npomba: V večstrežniških sistemih omogočite način vzdrževanja in najprej posodobite glavni strežnik. Nato posodobite vse podrejene strežnike in onemogočite način vzdrževanja, ko so vsi strežniki posodobljeni.\n\n";
 
-$method = simple_query('Izberite način posodobitve', array('stable', 'nightly', 'git-develop'), 'stable');
+$method = simple_query('Izberite način posodobitve', array('stable', 'nightly', 'git-master'), 'git-master');
 
 if($method == 'stable') {
-	$new_version = @file_get_contents('https://github.com/orgs/RM-Net-DOV-Control-Panel/dashboard/rmnetdov3_version.txt') or die('Ni mogoče pridobiti datoteke različice.');
+	$new_version = @file_get_contents('https://github.com/RMNetDOV/RMNetDOV3/blob/master/rmnetdov3_version.txt') or die('Ni mogoče pridobiti datoteke različice.');
 	$new_version = trim($new_version);
 	if(version_compare($new_version, RMNETDOV_APP_VERSION, '<=') && !in_array('--force', $argv, true)) {
 		echo "Za RM-Net - DOV CP ni na voljo nobenih posodobitev ".RMNETDOV_APP_VERSION."\n";

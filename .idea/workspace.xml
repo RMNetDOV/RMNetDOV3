@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8cd55fb-e132-4b33-906d-358d1c88f993" name="Changes" comment="RM-Net - DOV CP" />
+    <list default="true" id="d8cd55fb-e132-4b33-906d-358d1c88f993" name="Changes" comment="RM-Net - DOV CP">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/install.php" beforeDir="false" afterPath="$PROJECT_DIR$/install/install.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/setrights.php" beforeDir="false" afterPath="$PROJECT_DIR$/install/setrights.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/sql/rmnetdov3.sql" beforeDir="false" afterPath="$PROJECT_DIR$/install/sql/rmnetdov3.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/uninstall-fedora.php" beforeDir="false" afterPath="$PROJECT_DIR$/install/uninstall-fedora.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/uninstall.php" beforeDir="false" afterPath="$PROJECT_DIR$/install/uninstall.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/install/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/lib/classes/system.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/lib/classes/system.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/scripts/rmnetdov_update.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/scripts/rmnetdov_update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/scripts/update_runner.sh" beforeDir="false" afterPath="$PROJECT_DIR$/server/scripts/update_runner.sh" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RMNetDOV3 Autoinstaller" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DODATKI/RMNetDOV3_Roundcube_plugins" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -81,7 +92,13 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1667247549983</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="RM-Net - DOV CP">
+      <created>1667247593215</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1667247593215</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +111,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="RM-Net - DOV CP" />

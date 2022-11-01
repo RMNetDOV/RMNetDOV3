@@ -24,7 +24,7 @@ URL=""
 if [[ "$SOURCE" == "stable" ]] ; then
 	URL="https://github.com/RMNetDOV/RMNetDOV3/archive/refs/heads/stablet.tar.gz"
 elif [[ "$SOURCE" == "nightly" ]] ; then
-	URL="https://github.com/RMNetDOV/RMNetDOV3/archive/refs/heads/nightly.tar.gzz"
+	URL="https://github.com/RMNetDOV/RMNetDOV3/archive/refs/heads/nightly.tar.gz"
 elif [[ "$SOURCE" == "git-master" ]] ; then
 	URL="https://github.com/RMNetDOV/RMNetDOV3/archive/refs/heads/master.tar.gz"
 else 
