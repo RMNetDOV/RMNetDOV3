@@ -120,5 +120,5 @@ $wb['available_php_directive_snippets_txt'] = 'Razpoložljivi izrezki direktiv P
 $wb['available_apache_directive_snippets_txt'] = 'Razpoložljivi izrezki direktive Apache:';
 $wb['available_nginx_directive_snippets_txt'] = 'Razpoložljivi izrezki direktive nginx:';
 $wb['Domain'] = 'Aliasdomain';
-$wb['ssl_letsencrypt_exclude_txt'] = 'Ne dodajaj potrdilu Let's Encrypt';
+$wb['ssl_letsencrypt_exclude_txt'] = 'Ne dodajaj potrdilu Let\'s Encrypt';
 ?>

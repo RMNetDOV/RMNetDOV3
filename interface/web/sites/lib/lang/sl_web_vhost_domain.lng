@@ -206,5 +206,5 @@ $wb['tooltip_jailkit_chroot_app_sections_txt'] = 'Ko je prazen, uporablja razdel
 $wb['tooltip_jailkit_chroot_app_programs_txt'] = 'Ko je prazen, uporablja aplikacije Jailkit chroot iz konfiguracije strežnika';
 $wb['delete_unused_jailkit_txt'] = 'Izbriši neuporabljen jailkit chroot';
 $wb['tooltip_delete_unused_jailkit_txt'] = 'Izbriši okolje jailkit chroot, ko ni uporabnikov lupine ali opravil cron, ki to zahtevajo.';
-$wb['ssl_options_not_for_le_txt'] = 'Za to spletno stran imate omogočena potrdila Let's Encrypt. Upoštevajte, da vse možnosti na tej strani veljajo samo za potrdila, ki niso Let's Encrypt. Ne pozabite počistiti možnosti Let's Encrypt na glavnem zavihku, če želite preklopiti na drugo potrdilo.';
+$wb['ssl_options_not_for_le_txt'] = 'Za to spletno stran imate omogočena potrdila Let\'s Encrypt. Upoštevajte, da vse možnosti na tej strani veljajo samo za potrdila, ki niso Let\'s Encrypt. Ne pozabite počistiti možnosti Let\'s Encrypt na glavnem zavihku, če želite preklopiti na drugo potrdilo.';
 ?>
