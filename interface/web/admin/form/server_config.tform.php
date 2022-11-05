@@ -2029,7 +2029,7 @@ $form["tabs"]['ufw_firewall'] = array (
 */
 
 $form["tabs"]['vlogger'] = array(
-	'title' => "vlogger",
+	'title' => "Vlogger",
 	'width' => 80,
 	'template' => "templates/server_config_vlogger_edit.htm",
 	'fields' => array(

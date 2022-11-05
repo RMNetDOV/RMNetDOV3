@@ -1,5 +1,4 @@
 <?php
-<?php
 $wb['server_config'] = 'Konfiguracija strežnika';
 $wb['config_for_txt'] = 'Konfiguracija za';
 $wb['server_config_error_not_updated'] = 'Napaka v konfiguraciji strežnika: ni posodobljeno';
@@ -84,7 +83,7 @@ $wb['crontab_dir_txt'] = 'Pot za posamezne crontab';
 $wb['wget_txt'] = 'Pot do programa wget';
 $wb['web_user_txt'] = 'Uporabnik Apache';
 $wb['web_group_txt'] = 'Skupina Apache';
-$wb['security_level_txt'] = 'Raven varnosti'
+$wb['security_level_txt'] = 'Raven varnosti';
 $wb['loglevel_txt'] = 'Loglevel';
 $wb['apps_vhost_port_txt'] = 'Vrata Apps-vhost';
 $wb['apps_vhost_ip_txt'] = 'IP vgostitelja aplikacij';

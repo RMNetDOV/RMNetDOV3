@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d8cd55fb-e132-4b33-906d-358d1c88f993" name="Changes" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/web/admin/lib/lang/sl_server_config.lng" beforeDir="false" afterPath="$PROJECT_DIR$/interface/web/admin/lib/lang/sl_server_config.lng" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +132,13 @@
       <option name="presentableId" value="LOCAL−00015" />
       <updated>1667315147167</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL−00016" summary="Initial commit">
+      <created>1667640940656</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1667640940656</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
